@@ -9,6 +9,6 @@ int main(){
     s.push(33);
     s.push(44);
     s.pop();
-    s.top();
+
     cout<< s.size()<<endl;
 }
