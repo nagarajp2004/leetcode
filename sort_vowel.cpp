@@ -1,4 +1,10 @@
-vector<int>upper(26,0);
+#include<vector>
+#include<iostream>
+using namespace std;
+int main(){
+   string s;
+   cin>>s;
+   vector<int>upper(26,0);
    vector<int>lower(26,0);
    for(int i=0;i<s.size();i++){
     if(s[i]=='A'||s[i]=='E'||s[i]=='O'||s[i]=='I'||s[i]=='U'){
@@ -34,3 +40,5 @@ vector<int>upper(26,0);
        j++;
     }
    }
+ cout<<s;
+}
