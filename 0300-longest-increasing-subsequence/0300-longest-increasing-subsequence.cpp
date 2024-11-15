@@ -15,7 +15,18 @@ public:
         return dp[ind][prev+1]=max(take,nottake);
     }
     int lengthOfLIS(vector<int>& nums) {
-        vector<vector<int>>dp(nums.size(),vector<int>(nums.size()+1,-1));
-        return f(0,-1,nums,dp);
+        vector<vector<int>>dp(nums.size()+1,vector<int>(nums.size()+1,0));
+        int n=nums.size();
+        for(int i=n-1;i>=0;i--){
+            for(int j=i-1;j>=-1;j--){
+                int nottake=dp[i+1][j+1];
+        int take=0;
+        if(j==-1 || nums[i]>nums[j]){
+            take=1+dp[i+1][i+1];
+        }
+         dp[i][j+1]=max(take,nottake);
+            }
+        }
+        return dp[0][0];
     }
 };
