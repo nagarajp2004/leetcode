@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/nagarajp2004/leetcode/tree/master/0062-unique-paths) |
+| [0231-power-of-two](https://github.com/nagarajp2004/leetcode/tree/master/0231-power-of-two) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -102,8 +103,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/nagarajp2004/leetcode/tree/master/0044-wildcard-matching) |
+| [0231-power-of-two](https://github.com/nagarajp2004/leetcode/tree/master/0231-power-of-two) |
 ## Binary Search
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0300-longest-increasing-subsequence) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/nagarajp2004/leetcode/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
