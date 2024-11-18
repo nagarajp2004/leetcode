@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/nagarajp2004/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0064-minimum-path-sum) |
+| [0078-subsets](https://github.com/nagarajp2004/leetcode/tree/master/0078-subsets) |
 | [0120-triangle](https://github.com/nagarajp2004/leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nagarajp2004/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nagarajp2004/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/nagarajp2004/leetcode/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/nagarajp2004/leetcode/tree/master/0494-target-sum) |
 ## Recursion
 |  |
@@ -117,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/nagarajp2004/leetcode/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/nagarajp2004/leetcode/tree/master/0078-subsets) |
 | [0231-power-of-two](https://github.com/nagarajp2004/leetcode/tree/master/0231-power-of-two) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/nagarajp2004/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 <!---LeetCode Topics End-->
