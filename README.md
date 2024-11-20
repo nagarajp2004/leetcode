@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/nagarajp2004/leetcode/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/nagarajp2004/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0967-minimum-falling-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/nagarajp2004/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/nagarajp2004/leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/nagarajp2004/leetcode/tree/master/0518-coin-change-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1923-sentence-similarity-iii](https://github.com/nagarajp2004/leetcode/tree/master/1923-sentence-similarity-iii) |
 ## Matrix
 |  |
@@ -66,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
+| [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1923-sentence-similarity-iii](https://github.com/nagarajp2004/leetcode/tree/master/1923-sentence-similarity-iii) |
 ## String
 |  |
@@ -75,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0115-distinct-subsequences) |
 | [0516-longest-palindromic-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/nagarajp2004/leetcode/tree/master/0583-delete-operation-for-two-strings) |
+| [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/nagarajp2004/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -99,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/nagarajp2004/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
+| [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -132,4 +137,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/nagarajp2004/leetcode/tree/master/0204-count-primes) |
+## Hash Table
+|  |
+| ------- |
+| [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 <!---LeetCode Topics End-->
