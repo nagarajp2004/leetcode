@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1923-sentence-similarity-iii](https://github.com/nagarajp2004/leetcode/tree/master/1923-sentence-similarity-iii) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
 | [0368-largest-divisible-subset](https://github.com/nagarajp2004/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
@@ -154,4 +156,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Linked List
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
