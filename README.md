@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/nagarajp2004/leetcode/tree/master/0002-add-two-numbers) |
 | [0029-divide-two-integers](https://github.com/nagarajp2004/leetcode/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/nagarajp2004/leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/nagarajp2004/leetcode/tree/master/0062-unique-paths) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/nagarajp2004/leetcode/tree/master/0002-add-two-numbers) |
 | [0044-wildcard-matching](https://github.com/nagarajp2004/leetcode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/nagarajp2004/leetcode/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/nagarajp2004/leetcode/tree/master/0231-power-of-two) |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/nagarajp2004/leetcode/tree/master/0002-add-two-numbers) |
 | [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
 | [0328-odd-even-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0328-odd-even-linked-list) |
 ## Divide and Conquer
