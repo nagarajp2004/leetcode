@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/nagarajp2004/leetcode/tree/master/0518-coin-change-ii) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1127-last-stone-weight](https://github.com/nagarajp2004/leetcode/tree/master/1127-last-stone-weight) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1923-sentence-similarity-iii](https://github.com/nagarajp2004/leetcode/tree/master/1923-sentence-similarity-iii) |
 ## Matrix
@@ -176,4 +177,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1127-last-stone-weight](https://github.com/nagarajp2004/leetcode/tree/master/1127-last-stone-weight) |
 <!---LeetCode Topics End-->
