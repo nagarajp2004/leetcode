@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/nagarajp2004/leetcode/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/nagarajp2004/leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/nagarajp2004/leetcode/tree/master/0062-unique-paths) |
+| [0067-add-binary](https://github.com/nagarajp2004/leetcode/tree/master/0067-add-binary) |
 | [0204-count-primes](https://github.com/nagarajp2004/leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/nagarajp2004/leetcode/tree/master/0231-power-of-two) |
 | [0368-largest-divisible-subset](https://github.com/nagarajp2004/leetcode/tree/master/0368-largest-divisible-subset) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/nagarajp2004/leetcode/tree/master/0044-wildcard-matching) |
 | [0058-length-of-last-word](https://github.com/nagarajp2004/leetcode/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/nagarajp2004/leetcode/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/nagarajp2004/leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0115-distinct-subsequences) |
 | [0516-longest-palindromic-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0516-longest-palindromic-subsequence) |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/nagarajp2004/leetcode/tree/master/0067-add-binary) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/nagarajp2004/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Greedy
 |  |
@@ -174,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/nagarajp2004/leetcode/tree/master/0029-divide-two-integers) |
+| [0067-add-binary](https://github.com/nagarajp2004/leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/nagarajp2004/leetcode/tree/master/0078-subsets) |
 | [0231-power-of-two](https://github.com/nagarajp2004/leetcode/tree/master/0231-power-of-two) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/nagarajp2004/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
