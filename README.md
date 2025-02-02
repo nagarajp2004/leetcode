@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0115-distinct-subsequences) |
 | [0516-longest-palindromic-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/nagarajp2004/leetcode/tree/master/0583-delete-operation-for-two-strings) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/nagarajp2004/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/nagarajp2004/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/1250-longest-common-subsequence) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/nagarajp2004/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/nagarajp2004/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Simulation
 |  |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nagarajp2004/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0410-split-array-largest-sum](https://github.com/nagarajp2004/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/nagarajp2004/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Sorting
 |  |
 | ------- |
