@@ -1,27 +1,22 @@
 class Solution {
 public:
-    void recu(vector<int>& a, vector<vector<int>>& ans, vector<int>& temp, vector<int>& flag) {
-        if (temp.size() == a.size()) {
-            ans.push_back(temp);
+   void f(vector<vector<int>>&ans,vector<int>nums,int index)
+   {
+        if(index==nums.size()){
+            ans.push_back(nums);
             return;
         }
-        int n = a.size();
-        for (int i = 0; i < n; i++) {
-            if (flag[i] != 1) {
-                flag[i] = 1;
-                temp.push_back(a[i]);
-                recu(a, ans, temp, flag);
-                flag[i] = 0;  // Backtrack
-                temp.pop_back();
-            }
-        }
-    }
 
+        for(int i=index;i<nums.size();i++){
+           swap(nums[index],nums[i]);
+           f(ans,nums,index+1);
+        } 
+   }
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>> ans;
-        vector<int> temp;
-        vector<int> flag(nums.size(), 0);
-        recu(nums, ans, temp, flag);
+        
+        vector<vector<int>>ans;
+        int index=0;
+        f(ans,nums,index);
         return ans;
     }
 };
