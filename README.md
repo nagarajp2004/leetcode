@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/nagarajp2004/leetcode/tree/master/0067-add-binary) |
 | [0204-count-primes](https://github.com/nagarajp2004/leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/nagarajp2004/leetcode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/nagarajp2004/leetcode/tree/master/0368-largest-divisible-subset) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/nagarajp2004/leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Dynamic Programming
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/nagarajp2004/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/nagarajp2004/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/nagarajp2004/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/nagarajp2004/leetcode/tree/master/0322-coin-change) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/nagarajp2004/leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/nagarajp2004/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0435-non-overlapping-intervals](https://github.com/nagarajp2004/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
@@ -234,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/nagarajp2004/leetcode/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/nagarajp2004/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/nagarajp2004/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/nagarajp2004/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nagarajp2004/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -255,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/nagarajp2004/leetcode/tree/master/0078-subsets) |
 | [0190-reverse-bits](https://github.com/nagarajp2004/leetcode/tree/master/0190-reverse-bits) |
 | [0231-power-of-two](https://github.com/nagarajp2004/leetcode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [2308-divide-array-into-equal-pairs](https://github.com/nagarajp2004/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/nagarajp2004/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/nagarajp2004/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -273,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/nagarajp2004/leetcode/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/nagarajp2004/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0169-majority-element](https://github.com/nagarajp2004/leetcode/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0525-contiguous-array](https://github.com/nagarajp2004/leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/nagarajp2004/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
