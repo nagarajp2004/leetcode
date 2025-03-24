@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2690-house-robber-iv](https://github.com/nagarajp2004/leetcode/tree/master/2690-house-robber-iv) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/nagarajp2004/leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/nagarajp2004/leetcode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
+| [3430-count-days-without-meetings](https://github.com/nagarajp2004/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/nagarajp2004/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/nagarajp2004/leetcode/tree/master/3483-alternating-groups-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/nagarajp2004/leetcode/tree/master/3643-zero-array-transformation-ii) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0948-sort-an-array) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1962-single-threaded-cpu](https://github.com/nagarajp2004/leetcode/tree/master/1962-single-threaded-cpu) |
+| [3430-count-days-without-meetings](https://github.com/nagarajp2004/leetcode/tree/master/3430-count-days-without-meetings) |
 ## Breadth-First Search
 |  |
 | ------- |
