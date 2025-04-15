@@ -1,39 +1,37 @@
 class Solution {
 public:
-    vector<int> nextGreaterElements(vector<int>& num) {
-        int n=num.size();
+    vector<int> nextGreaterElements(vector<int>& nums) {
+        int n=nums.size();
         stack<int>st;
         vector<int>ans;
-        for(int i=n-1;i>=0;i--){
-            
-                while(!st.empty()&& st.top()<=num[i])
-                {
-                    st.pop();
-                }
-                int x = n - 1;
-int j = 1;
-bool found = false;
-while (x--) {
-    int idx = (i + j) % n;
-    if (num[idx] > num[i]) {
-        st.push(num[idx]);
-        found = true;
-        break;
-    }
-    j++;
-}
-if (found)
-    ans.push_back(st.top());
-else
-    ans.push_back(-1);
-
-              
-                st.push(num[i]);
+        for(int i=n-1;i>=0;i--)
+        {
+             while(!st.empty() && st.top()<=nums[i]){
+                st.pop();
              }
-
-         reverse(ans.begin(),ans.end());
-             return ans;
+             if(st.empty()){
+                ans.push_back(-1);
+             }
+             else{
+                ans.push_back(st.top());
+             }
+             st.push(nums[i]);
         }
-
-    
+        for(int i=n-1;i>=0;i--)
+        {
+             while(!st.empty() && st.top()<=nums[i]){
+                st.pop();
+             }
+             if(st.empty()){
+                ans.push_back(-1);
+             }
+             else{
+                ans.push_back(st.top());
+             }
+             st.push(nums[i]);
+        }
+        reverse(ans.begin(),ans.end());
+        ans.resize(n);
+        return ans;
+    }
 };
