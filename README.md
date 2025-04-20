@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/nagarajp2004/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/nagarajp2004/leetcode/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/nagarajp2004/leetcode/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/nagarajp2004/leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nagarajp2004/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/nagarajp2004/leetcode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/nagarajp2004/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/nagarajp2004/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/nagarajp2004/leetcode/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/nagarajp2004/leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nagarajp2004/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nagarajp2004/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/nagarajp2004/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/nagarajp2004/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0085-maximal-rectangle](https://github.com/nagarajp2004/leetcode/tree/master/0085-maximal-rectangle) |
 | [0240-search-a-2d-matrix-ii](https://github.com/nagarajp2004/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/nagarajp2004/leetcode/tree/master/2047-find-a-peak-element-ii) |
@@ -192,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/nagarajp2004/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/nagarajp2004/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/nagarajp2004/leetcode/tree/master/0085-maximal-rectangle) |
 | [0155-min-stack](https://github.com/nagarajp2004/leetcode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/nagarajp2004/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0402-remove-k-digits](https://github.com/nagarajp2004/leetcode/tree/master/0402-remove-k-digits) |
@@ -444,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/nagarajp2004/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/nagarajp2004/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/nagarajp2004/leetcode/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/nagarajp2004/leetcode/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/nagarajp2004/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/nagarajp2004/leetcode/tree/master/0943-sum-of-subarray-minimums) |
