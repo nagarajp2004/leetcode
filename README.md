@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/nagarajp2004/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/nagarajp2004/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/nagarajp2004/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/nagarajp2004/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -372,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/nagarajp2004/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
 | [0948-sort-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0948-sort-an-array) |
 | [1127-last-stone-weight](https://github.com/nagarajp2004/leetcode/tree/master/1127-last-stone-weight) |
@@ -404,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0076-minimum-window-substring](https://github.com/nagarajp2004/leetcode/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/nagarajp2004/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0239-sliding-window-maximum](https://github.com/nagarajp2004/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0713-subarray-product-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/nagarajp2004/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nagarajp2004/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -442,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/nagarajp2004/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0239-sliding-window-maximum](https://github.com/nagarajp2004/leetcode/tree/master/0239-sliding-window-maximum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/nagarajp2004/leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/nagarajp2004/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Monotonic Stack
@@ -458,4 +462,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/nagarajp2004/leetcode/tree/master/0014-longest-common-prefix) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/nagarajp2004/leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
