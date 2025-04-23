@@ -324,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/nagarajp2004/leetcode/tree/master/0001-two-sum) |
 | [0076-minimum-window-substring](https://github.com/nagarajp2004/leetcode/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/nagarajp2004/leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/nagarajp2004/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/nagarajp2004/leetcode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/nagarajp2004/leetcode/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
@@ -352,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/nagarajp2004/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0025-reverse-nodes-in-k-group](https://github.com/nagarajp2004/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0138-copy-list-with-random-pointer](https://github.com/nagarajp2004/leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/nagarajp2004/leetcode/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
 | [0328-odd-even-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0328-odd-even-linked-list) |
 ## Divide and Conquer
@@ -399,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/nagarajp2004/leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/nagarajp2004/leetcode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/nagarajp2004/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/nagarajp2004/leetcode/tree/master/0303-range-sum-query-immutable) |
@@ -473,4 +476,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/nagarajp2004/leetcode/tree/master/0937-online-stock-span) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/nagarajp2004/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
