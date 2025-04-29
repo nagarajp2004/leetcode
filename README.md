@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/nagarajp2004/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/nagarajp2004/leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/nagarajp2004/leetcode/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/nagarajp2004/leetcode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0053-maximum-subarray) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/nagarajp2004/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0008-string-to-integer-atoi](https://github.com/nagarajp2004/leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0014-longest-common-prefix](https://github.com/nagarajp2004/leetcode/tree/master/0014-longest-common-prefix) |
+| [0022-generate-parentheses](https://github.com/nagarajp2004/leetcode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/nagarajp2004/leetcode/tree/master/0044-wildcard-matching) |
 | [0058-length-of-last-word](https://github.com/nagarajp2004/leetcode/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/nagarajp2004/leetcode/tree/master/0067-add-binary) |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/nagarajp2004/leetcode/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/nagarajp2004/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/nagarajp2004/leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/nagarajp2004/leetcode/tree/master/0078-subsets) |
