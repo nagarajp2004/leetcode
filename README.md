@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/nagarajp2004/leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/nagarajp2004/leetcode/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/nagarajp2004/leetcode/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/nagarajp2004/leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/nagarajp2004/leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/nagarajp2004/leetcode/tree/master/0062-unique-paths) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/nagarajp2004/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/nagarajp2004/leetcode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/nagarajp2004/leetcode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/nagarajp2004/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/nagarajp2004/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/nagarajp2004/leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0053-maximum-subarray) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/nagarajp2004/leetcode/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/nagarajp2004/leetcode/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/nagarajp2004/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/nagarajp2004/leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nagarajp2004/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0402-remove-k-digits](https://github.com/nagarajp2004/leetcode/tree/master/0402-remove-k-digits) |
