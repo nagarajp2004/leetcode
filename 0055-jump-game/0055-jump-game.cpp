@@ -1,24 +1,22 @@
 class Solution {
 public:
-    bool recur(vector<int>& nums, int i, vector<int>& dp) {
-        if(i >= nums.size() - 1) return true;
-        if(dp[i] != -1) return dp[i]; // use memoized result
-
-        int maxJump = nums[i];
-        for(int j = 1; j <= maxJump; ++j) {
-            if(recur(nums, i + j, dp)) {
-                dp[i] = 1;
-                return true;
-            }
-        }
-
-        dp[i] = 0;
-        return false;
-    }
+ 
 
     bool canJump(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> dp(n, -1); // initialize memoization array
-        return recur(nums, 0, dp);
+        int n=nums.size();
+         vector<int>dp(nums.size(),0);
+        dp[nums.size()-1]=1;
+        for(int i=n-2;i>=0;i--){
+            for(int j=nums[i];j>=0;j--){
+                if(i+j <n){
+                   bool x=false;
+                   x=dp[i+j];
+                   if(x==1){
+                    dp[i]=1;
+                   }
+                }
+            }
+        }
+        return dp[0];
     }
 };
