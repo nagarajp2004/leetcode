@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/nagarajp2004/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/nagarajp2004/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/nagarajp2004/leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/nagarajp2004/leetcode/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/nagarajp2004/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/nagarajp2004/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/nagarajp2004/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/nagarajp2004/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/nagarajp2004/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/nagarajp2004/leetcode/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/nagarajp2004/leetcode/tree/master/0085-maximal-rectangle) |
 | [0240-search-a-2d-matrix-ii](https://github.com/nagarajp2004/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -200,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/nagarajp2004/leetcode/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/nagarajp2004/leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/nagarajp2004/leetcode/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/nagarajp2004/leetcode/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/nagarajp2004/leetcode/tree/master/0131-palindrome-partitioning) |
@@ -297,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/nagarajp2004/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/nagarajp2004/leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/nagarajp2004/leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/nagarajp2004/leetcode/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/nagarajp2004/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/nagarajp2004/leetcode/tree/master/0216-combination-sum-iii) |
 | [0494-target-sum](https://github.com/nagarajp2004/leetcode/tree/master/0494-target-sum) |
@@ -530,4 +534,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/nagarajp2004/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/nagarajp2004/leetcode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
