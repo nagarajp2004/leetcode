@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/nagarajp2004/leetcode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/nagarajp2004/leetcode/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/nagarajp2004/leetcode/tree/master/0368-largest-divisible-subset) |
+| [0392-is-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/nagarajp2004/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/nagarajp2004/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/nagarajp2004/leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/nagarajp2004/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/nagarajp2004/leetcode/tree/master/0189-rotate-array) |
+| [0392-is-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/nagarajp2004/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/nagarajp2004/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/nagarajp2004/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/nagarajp2004/leetcode/tree/master/0205-isomorphic-strings) |
+| [0392-is-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0392-is-subsequence) |
 | [0402-remove-k-digits](https://github.com/nagarajp2004/leetcode/tree/master/0402-remove-k-digits) |
 | [0516-longest-palindromic-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/nagarajp2004/leetcode/tree/master/0583-delete-operation-for-two-strings) |
