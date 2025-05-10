@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/nagarajp2004/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/nagarajp2004/leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/nagarajp2004/leetcode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/nagarajp2004/leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/nagarajp2004/leetcode/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/nagarajp2004/leetcode/tree/master/0063-unique-paths-ii) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/nagarajp2004/leetcode/tree/master/0036-valid-sudoku) |
+| [0054-spiral-matrix](https://github.com/nagarajp2004/leetcode/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/nagarajp2004/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/nagarajp2004/leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/nagarajp2004/leetcode/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/nagarajp2004/leetcode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/nagarajp2004/leetcode/tree/master/0068-text-justification) |
 | [0735-asteroid-collision](https://github.com/nagarajp2004/leetcode/tree/master/0735-asteroid-collision) |
