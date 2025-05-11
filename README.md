@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/nagarajp2004/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/nagarajp2004/leetcode/tree/master/0274-h-index) |
+| [0289-game-of-life](https://github.com/nagarajp2004/leetcode/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/nagarajp2004/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/nagarajp2004/leetcode/tree/master/0322-coin-change) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/nagarajp2004/leetcode/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/nagarajp2004/leetcode/tree/master/0085-maximal-rectangle) |
 | [0240-search-a-2d-matrix-ii](https://github.com/nagarajp2004/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0289-game-of-life](https://github.com/nagarajp2004/leetcode/tree/master/0289-game-of-life) |
 | [0967-minimum-falling-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/nagarajp2004/leetcode/tree/master/2047-find-a-peak-element-ii) |
 ## Two Pointers
@@ -261,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/nagarajp2004/leetcode/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/nagarajp2004/leetcode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/nagarajp2004/leetcode/tree/master/0068-text-justification) |
+| [0289-game-of-life](https://github.com/nagarajp2004/leetcode/tree/master/0289-game-of-life) |
 | [0735-asteroid-collision](https://github.com/nagarajp2004/leetcode/tree/master/0735-asteroid-collision) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/nagarajp2004/leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/nagarajp2004/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
