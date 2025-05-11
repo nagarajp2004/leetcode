@@ -1,34 +1,30 @@
 class Solution {
 public:
-    bool isIsomorphic(string s, string t)
-     {
-        unordered_map<char,char>st;
+    bool isIsomorphic(string s, string t) {
+        
+        int n=s.size();
+        int m=t.size();
+   unordered_map<int,int>mpp;
 
-        int n1=s.size();
-        int n2=t.size();
-        if(n1!=n2)
-        {
+        if(n<m || m<n){
             return false;
         }
-       for(int i=0;i<n1;i++)
+       for(int i=0;i<n;i++)
        {
-        if(st.count(s[i]))
-        {
-           if(st[s[i]]!=t[i]){
-            return false;
-           }
-        }
-        else
-        {
-           for(auto& k :st)
-           {
-            if(k.second==t[i])
-            {
-                return false;
+         if(mpp.count(s[i]))
+         {
+           if(mpp[s[i]]!=t[i])
+                return false;  ;      
+         }else{
+
+            for(auto& k:mpp){
+                if(k.second == t[i]){
+                    return false;
+                }
             }
-           }
-           st[s[i]]=t[i];
-        }
+            mpp[s[i]]=t[i];
+         }
+
        }
        return true;
     }
