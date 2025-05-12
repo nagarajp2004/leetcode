@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/nagarajp2004/leetcode/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/nagarajp2004/leetcode/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/nagarajp2004/leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/nagarajp2004/leetcode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/nagarajp2004/leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/nagarajp2004/leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/nagarajp2004/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/nagarajp2004/leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/nagarajp2004/leetcode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
@@ -407,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/nagarajp2004/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/nagarajp2004/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/nagarajp2004/leetcode/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/nagarajp2004/leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/nagarajp2004/leetcode/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0290-word-pattern](https://github.com/nagarajp2004/leetcode/tree/master/0290-word-pattern) |
