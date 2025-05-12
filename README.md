@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1962-single-threaded-cpu](https://github.com/nagarajp2004/leetcode/tree/master/1962-single-threaded-cpu) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/nagarajp2004/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2047-find-a-peak-element-ii](https://github.com/nagarajp2004/leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2215-finding-3-digit-even-numbers](https://github.com/nagarajp2004/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2227-sum-of-subarray-ranges](https://github.com/nagarajp2004/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2308-divide-array-into-equal-pairs](https://github.com/nagarajp2004/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2665-minimum-time-to-repair-cars](https://github.com/nagarajp2004/leetcode/tree/master/2665-minimum-time-to-repair-cars) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/nagarajp2004/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1962-single-threaded-cpu](https://github.com/nagarajp2004/leetcode/tree/master/1962-single-threaded-cpu) |
+| [2215-finding-3-digit-even-numbers](https://github.com/nagarajp2004/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [3430-count-days-without-meetings](https://github.com/nagarajp2004/leetcode/tree/master/3430-count-days-without-meetings) |
 ## Breadth-First Search
 |  |
@@ -385,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/nagarajp2004/leetcode/tree/master/0204-count-primes) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/nagarajp2004/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2215-finding-3-digit-even-numbers](https://github.com/nagarajp2004/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 ## Number Theory
 |  |
 | ------- |
@@ -412,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1034-subarrays-with-k-different-integers](https://github.com/nagarajp2004/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/nagarajp2004/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2215-finding-3-digit-even-numbers](https://github.com/nagarajp2004/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2308-divide-array-into-equal-pairs](https://github.com/nagarajp2004/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/nagarajp2004/leetcode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/nagarajp2004/leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
