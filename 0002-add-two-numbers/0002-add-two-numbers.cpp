@@ -9,45 +9,58 @@
  * };
  */
 class Solution {
-public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        
-        ListNode* first=l1,*second=l2;
-        int carry=0;
-        ListNode* ans=new ListNode(-1); 
-        ListNode* sol=ans;
-        while(first && second)
-        {
-            int data=first->val+second->val+carry;
-            carry=data/10;
-            data=data%10;
-            ans->next=new ListNode(data);
-            ans=ans->next;
-            first=first->next;
-            second=second->next;
+ public:
+    ListNode* revers(ListNode* node){
+        if(node==NULL){
+            return NULL;
         }
-    int data=0;
-    while(first){
-        data=first->val+carry;
-        carry=data/10;
-        data=data%10;
-        ans->next=new ListNode(data);
-        ans=ans->next;
-        first=first->next;
-    }
-    while(second){
-        data=second->val+carry;
-        carry=data/10;
-        data=data%10;
-        ans->next=new ListNode(data);
-        ans=ans->next;
-        second=second->next;
-    }
-    if(carry){
-        ans->next=new ListNode(carry);
+        if(node->next==NULL){
+            return node;
+        }
+        ListNode* prev=NULL,*cur=node,*next;
+        while(cur){
+            next=cur->next;
+            cur->next=prev;
+            prev=cur;
+            cur=next;
+        }
+       return prev;
     }
 
+    ListNode* addTwoNumbers(ListNode*t1, ListNode* t2) {
 
-        return sol->next;
+        ListNode* head=new ListNode(0);
+        ListNode* temp=head;
+        int car=0;
+        while(t1 && t2){
+             int value = car+t1->val +t2->val;
+             car=value/10;
+             value=value%10;
+             head->next=new ListNode(value);
+           head=head->next;
+           t1=t1->next;
+           t2=t2->next;
+        }
+        while(t1){
+             int value = car+t1->val ;
+             car=value/10;
+             value=value%10;
+             head->next=new ListNode(value);
+             head=head->next;
+              t1=t1->next;
+        }
+        while(t2){
+             int value = car+t2->val ;
+             car=value/10;
+             value=value%10;
+             head->next=new ListNode(value);
+             head=head->next;
+              t2=t2->next;
+        }
+        if(car){
+            head->next =new ListNode(car);
+        }
+        return temp->next;
+      
     }
 };
