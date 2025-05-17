@@ -11,33 +11,31 @@
  */
 class Solution {
 public:
-      TreeNode* build(deque<int>& preorder,vector<int> inorder)
-      {
-          if(preorder.empty()){
-            return NULL;
-          }
-          if(inorder.empty()){
-            return NULL;
-          }
-
-          int val=preorder.front();
-          preorder.pop_front();
-          auto i=find(inorder.begin(),inorder.end(),val);
-          int index= i- inorder.begin();
-          TreeNode* root=new TreeNode(val);
-        vector<int>nlin(inorder.begin(), inorder.begin() + index);
-        vector<int>nrin(inorder.begin()+index+1,inorder.end());
-         
-         root->left=build(preorder,nlin);
-         root->right=build(preorder,nrin);
-         return root;
-
-      } 
-
-    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder)
-    {
-        deque<int> pre(preorder.begin(),preorder.end());
-        return build(pre,inorder);
+    int preindex;
+    unordered_map<int,int>mpp;
+    TreeNode* build(vector<int>& preorder,int start,int end){
         
+        if(start>end){
+            return NULL;
+        }
+        int val=preorder[preindex];
+        preindex++;
+        int index=mpp[val];
+        TreeNode* node=new TreeNode(val);
+
+      node->left=build(preorder,start,index-1);
+      node->right=build(preorder,index+1,end);
+        return node;
+    }
+
+
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) 
+    {
+        for(int i=0;i<inorder.size();i++){
+            mpp[inorder[i]]=i;
+        }
+        preindex=0;
+       return  build(preorder,0,inorder.size()-1);
+      
     }
 };
