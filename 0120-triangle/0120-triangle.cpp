@@ -5,9 +5,9 @@ public:
         if(j>i || i>=n){
             return 0;
         }
-  if(dp[i][j]!=-1){
-    return dp[i][j];
-  }
+     if(dp[i][j]!=-1){
+      return dp[i][j];
+     }
 
      return dp[i][j]=min(f(tr,dp,i+1,j,n),f(tr,dp,i+1,j+1,n))+tr[i][j];
 
@@ -15,7 +15,14 @@ public:
 
     int minimumTotal(vector<vector<int>>& tr) {
        int n=tr.size();
-       vector<vector<int>>dp(n+1,vector<int>(n+1,-1));
-        return f(tr,dp,0,0,n);
+      vector<int>dp(tr[n-1]);
+
+      for(int r=n-2;r>=0;r--){
+        for(int c=0;c<=r;c++){
+            dp[c]=min(dp[c],dp[c+1])+tr[r][c];
+        }
+      }
+     return dp[0];     
+  
     }
 };
