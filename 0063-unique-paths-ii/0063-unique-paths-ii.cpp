@@ -1,28 +1,34 @@
 class Solution {
 public:
-     int recur(int n,int m,vector<vector<int>>&o,vector<vector<int>>& dp){
-        if(n==0 && m==0){
-           if(!o[n][m]) 
-             return 1;
-        }
-        if(n<0 || m<0){
-            return 0;
-        }
-        if(o[n][m]==1){
-            dp[n][m]=0;
-            return 0;
-        }
-        if(dp[n][m]!=-1){
-          return dp[n][m];
-        }
-        return dp[n][m]=recur(n-1,m,o,dp)+recur(n,m-1,o,dp);
-     }
 
     int uniquePathsWithObstacles(vector<vector<int>>& o) {
         int n=o.size();
-      
         int m=o[0].size();
-        vector<vector<int>>dp(n,vector<int> (m,-1));
-        return recur(n-1,m-1,o,dp);
+        vector<vector<int>>dp(n,vector<int>(m,0));
+        for(int i=0;i<n;i++){
+            if(o[i][0]!=1)
+                dp[i][0]=1;
+            else
+               break;    
+        }
+
+        for(int j=0;j<m;j++){
+            if(o[0][j]!=1){
+                dp[0][j]=1;
+            }
+            else{
+                break;
+            }
+        }
+
+        for(int i=1;i<n;i++){
+            for(int j=1;j<m;j++){
+                if(o[i][j]!=1){
+                    dp[i][j]=dp[i-1][j]+ dp[i][j-1];
+                }
+            }
+        }
+        return dp[n-1][m-1];
+
     }
 };
