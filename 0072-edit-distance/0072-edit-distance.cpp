@@ -1,30 +1,34 @@
 class Solution {
- public:
-    int f(int i,int j,string a,string b,vector<vector<int>>&dp){
-       if(j==0){
-        return i;
-       }
-       if(i==0){
-        return j;
-       }
-       if(dp[i][j]!=-1){
-        return dp[i][j];
-       }        
+public:
+    int f(int i,int j,string s1,string s2,  vector<vector<int>>&vt){
+          if(i==-1){
+            return j+1;
+          }
+          if(j==-1){
+            return i+1;
+          }
+        if(vt[i][j]!=-1){
+            return vt[i][j];
+        }
 
-        if(a[i-1]==b[j-1])
-        {
-            return dp[i][j]=f(i-1,j-1,a,b,dp);
+        if(s1[i]==s2[j]){
+         return vt[i][j]=f(i-1,j-1,s1,s2,vt);
         }
-        else
-        {
-            return dp[i][j]=1+ min(f(i,j-1,a,b,dp),min(f(i-1,j-1,a,b,dp),f(i-1,j,a,b,dp)));
-        }
+
+        return vt[i][j]=1+min(f(i,j-1,s1,s2,vt),min(f(i-1,j,s1,s2,vt),f(i-1,j-1,s1,s2,vt)));
     }
-    int minDistance(string word1, string word2)
-     {
-     int n=word1.size();
-     int m=word2.size();
-     vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-     return f(n,m,word1,word2,dp);    
+    int minDistance(string w1, string w2) {
+    
+
+   int n1=w1.size();
+   int n2=w2.size();
+   if(n1==0){
+    return n2;
+   }
+   if(n2==0){
+    return n1;
+   }
+   vector<vector<int>>vt(n1,vector<int>(n2,-1));
+   return f(n1-1,n2-1,w1,w2,vt);
     }
 };
