@@ -28,7 +28,22 @@ public:
    if(n2==0){
     return n1;
    }
-   vector<vector<int>>vt(n1,vector<int>(n2,-1));
-   return f(n1-1,n2-1,w1,w2,vt);
+   vector<vector<int>>dp(n1+1,vector<int>(n2+1,0));
+  for(int i=0;i<=n1;i++) dp[i][0]=i;
+  for(int i=0;i<=n2;i++) dp[0][i]=i;
+
+
+   for(int i=1;i<=n1;i++)
+   {
+    for(int j=1;j<=n2;j++){
+       if(w1[i-1]==w2[j-1]){
+         dp[i][j]=dp[i-1][j-1];
+       }else{
+          dp[i][j]=1+min(dp[i][j-1],min(dp[i-1][j],dp[i-1][j-1]));
+       }
+    }
+   }
+   return dp[n1][n2];
+
     }
 };
