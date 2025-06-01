@@ -1,27 +1,21 @@
 class Solution {
 public:
-   int  f(int i,vector<int>&nums,int can,vector<vector<int>>&dp){
-      if(i==nums.size()){
+int f(int i,vector<int>&nums,vector<int>&dp){
+     if(i==0){
+        return nums[0];
+     }
+     if(i<=-1){
         return 0;
-      }
-      if(dp[i][can]!=-1){
-        return dp[i][can];
-      }
+     }
+     if(dp[i]!=-1){
+        return dp[i];
+     }
 
-      int profit=0;
-    if(can){
-     profit=max(f(i+1,nums,0,dp)+nums[i],f(i+1,nums,1,dp));
-    }
-    else{
-        profit=max(f(i+1,nums,1,dp),f(i+1,nums,1,dp));
-    }
-    return dp[i][can]=profit;
-   }
-
+     return dp[i]=max(nums[i]+f(i-2,nums,dp),f(i-1,nums,dp));
+}
     int rob(vector<int>& nums) {
-       int n=nums.size();
-       vector<vector<int>>dp(n+1,vector<int>(2,-1));
-       
-        return f(0,nums,1,dp);  
+      int n=nums.size();
+      vector<int>dp(n+1,-1);  
+     return f(n-1,nums,dp);
     }
 };
