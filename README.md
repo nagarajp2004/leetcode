@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nagarajp2004/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/nagarajp2004/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/nagarajp2004/leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/nagarajp2004/leetcode/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/nagarajp2004/leetcode/tree/master/0221-maximal-square) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/nagarajp2004/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/nagarajp2004/leetcode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/nagarajp2004/leetcode/tree/master/0135-candy) |
+| [0139-word-break](https://github.com/nagarajp2004/leetcode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/nagarajp2004/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/nagarajp2004/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -246,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/nagarajp2004/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/nagarajp2004/leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/nagarajp2004/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/nagarajp2004/leetcode/tree/master/0205-isomorphic-strings) |
 | [0290-word-pattern](https://github.com/nagarajp2004/leetcode/tree/master/0290-word-pattern) |
@@ -449,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/nagarajp2004/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/nagarajp2004/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/nagarajp2004/leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/nagarajp2004/leetcode/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/nagarajp2004/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/nagarajp2004/leetcode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/nagarajp2004/leetcode/tree/master/0202-happy-number) |
@@ -614,6 +618,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/nagarajp2004/leetcode/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/nagarajp2004/leetcode/tree/master/0139-word-break) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -730,4 +735,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/nagarajp2004/leetcode/tree/master/0173-binary-search-tree-iterator) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/nagarajp2004/leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
