@@ -1,48 +1,35 @@
 class Solution {
 public:
-    vector<int> searchRange(vector<int>& a, int t) {
-        int n=a.size();
-         int first=-1,last=-1;
-         int start =0,end=a.size()-1,mid;
-
-
-         while(start<=end){
-           mid=start+(end-start)/2;
-       if(a[mid]==t){
-           first=mid;
-           end=mid-1;
-       }      
-       else if(a[mid]<t){
-            start=mid+1;
+    vector<int> searchRange(vector<int>& nums, int tar) {
+        int n=nums.size();
+        if(n==0){
+            return {-1,-1};
         }
-   else{
-     end =mid-1;
-      }}
-
-
-
-
-   start=0;
-   end=n-1;
-    while(start<=end){
-        mid=start+(end-start)/2;
-        if(a[mid]==t){
-             last=mid;
-             start=mid+1;
+        int i=0,j=n-1;
+        int ans=-1;
+        while(i<=j){
+            int mid=i+(j-i)/2;
+            if(nums[mid]<=tar){
+               ans=mid;
+               i=mid+1;
+            }else{
+                j=mid-1;
+            }
         }
-    else if(a[mid]<t){
-      start=mid+1;
+        if(ans==-1 ||nums[ans]!=tar){
+            return {-1,-1};
         }
-   else{
-     end =mid-1;
-      }
-
-    }   
-    vector<int>p(2);
-    p[0]=first;
-    p[1]=last;
-    
-    return p;
-     }      
-     
+        int r=ans;
+        int l=-1;
+        while(0<=ans){
+           ans--;
+           if(ans!=-1 && nums[ans]!=tar){
+            break;
+           }   
+        } 
+         
+       int left=ans+1;
+      
+        return {left,r};
+    }
 };
