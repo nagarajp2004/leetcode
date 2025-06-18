@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/nagarajp2004/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/nagarajp2004/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
+| [0493-reverse-pairs](https://github.com/nagarajp2004/leetcode/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/nagarajp2004/leetcode/tree/master/0494-target-sum) |
 | [0502-ipo](https://github.com/nagarajp2004/leetcode/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/nagarajp2004/leetcode/tree/master/0503-next-greater-element-ii) |
@@ -418,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/nagarajp2004/leetcode/tree/master/0410-split-array-largest-sum) |
+| [0493-reverse-pairs](https://github.com/nagarajp2004/leetcode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nagarajp2004/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0907-koko-eating-bananas](https://github.com/nagarajp2004/leetcode/tree/master/0907-koko-eating-bananas) |
@@ -497,10 +499,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/nagarajp2004/leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/nagarajp2004/leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Linked List
 |  |
@@ -531,12 +535,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0190-reverse-bits](https://github.com/nagarajp2004/leetcode/tree/master/0190-reverse-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/nagarajp2004/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0493-reverse-pairs](https://github.com/nagarajp2004/leetcode/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Merge Sort
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
+| [0493-reverse-pairs](https://github.com/nagarajp2004/leetcode/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
@@ -770,4 +776,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/nagarajp2004/leetcode/tree/master/0149-max-points-on-a-line) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/nagarajp2004/leetcode/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
