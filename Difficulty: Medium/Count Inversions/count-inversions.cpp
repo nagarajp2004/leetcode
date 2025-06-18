@@ -1,84 +1,54 @@
-//{ Driver Code Starts
-#include <bits/stdc++.h>
-using namespace std;
-
-
-// } Driver Code Ends
 class Solution {
   public:
-  int ans=0;
     // Function to count inversions in the array.
-    void mergesort(vector<int>&x ,int l,int m,int h)
-   {   
-       vector<int>y;  
-       int a=l,b=m+1;
-       while(a<=m && b<=h){
-           if(x[a]<=x[b]){
-               y.push_back(x[a]);
-               a++;
-           }
-           else{
-                ans+=(m-a+1);
-              
-               y.push_back(x[b]);
-               b++;
-           }
-       }
-       
-       while(a<=m){
-            y.push_back(x[a]);
-               a++;
-       }
-       while(b<=h){
-            y.push_back(x[b]);
-               b++; 
-       }
-       for(int i=l;i<=h;i++){
-           x[i]=y[i-l];
-       }
-   }
-   void merge(vector<int>& x,int l,int h){
-       if(l>=h){
-           return ;
-       }
-       int mid=(l+h)/2;
-       merge(x,l,mid);
-       merge(x,mid+1,h);
-       mergesort(x,l,mid,h);
-   }
-   
- 
-    int inversionCount(vector<int> &arr) {
-        // Your Code Here
-         int low=0,high=arr.size()-1;
-         merge(arr,low,high);
-         return ans;
-       
+    int cnt=0;
+    
+    void merge_t(vector<int>&arr,int i,int mid,int j)
+    {
+        int str=i;
+        int ss=mid+1;
+        vector<int>temp(j-i+1,0);
+        int index=0;
+        while(i<=mid && ss<=j){
+            if(arr[i]>arr[ss]){
+                cnt+=mid-i+1;
+                temp[index++]=arr[ss];
+                ss++;
+            }else{
+                temp[index++]=arr[i];
+                i++;
+            }
+        }
+        while(i<=mid){
+            temp[index++]=arr[i];
+                i++;
+        }
+        while(ss<=j){
+            temp[index++]=arr[ss];
+                ss++; 
+        }
+        
+        for(int i=0;i<temp.size();i++){
+            arr[i+str]=temp[i];
+        }
+    }
+    
+    void  merge(vector<int>&arr,int i,int j)
+    {
+      if(i==j){
+          return;
+      }  
+      int mid=(i+j)/2;
+      merge(arr,i,mid);
+      merge(arr,mid+1,j);
+      merge_t(arr,i,mid,j);
+    }
+    
+    int inversionCount(vector<int> &arr)
+    {
+    int i=0;
+    int n=arr.size();
+    merge(arr,0,n-1);
+        return cnt;
     }
 };
-
-//{ Driver Code Starts.
-
-int main() {
-
-    int T;
-    cin >> T;
-    cin.ignore();
-    while (T--) {
-        int n;
-        vector<int> a;
-        string input;
-        getline(cin, input);
-        stringstream ss(input);
-        int num;
-        while (ss >> num)
-            a.push_back(num);
-        Solution obj;
-        cout << obj.inversionCount(a) << endl;
-        cout << "~" << endl;
-    }
-
-    return 0;
-}
-
-// } Driver Code Ends
