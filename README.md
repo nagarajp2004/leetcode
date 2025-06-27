@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/nagarajp2004/leetcode/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/nagarajp2004/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0943-sum-of-subarray-minimums](https://github.com/nagarajp2004/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0954-maximum-sum-circular-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0713-subarray-product-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0735-asteroid-collision](https://github.com/nagarajp2004/leetcode/tree/master/0735-asteroid-collision) |
 | [0907-koko-eating-bananas](https://github.com/nagarajp2004/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/nagarajp2004/leetcode/tree/master/0943-sum-of-subarray-minimums) |
@@ -437,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nagarajp2004/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0907-koko-eating-bananas](https://github.com/nagarajp2004/leetcode/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/nagarajp2004/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/nagarajp2004/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -610,6 +613,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/nagarajp2004/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/nagarajp2004/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0713-subarray-product-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/nagarajp2004/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nagarajp2004/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/nagarajp2004/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -804,4 +808,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/nagarajp2004/leetcode/tree/master/0493-reverse-pairs) |
+## Rolling Hash
+|  |
+| ------- |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+## Hash Function
+|  |
+| ------- |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 <!---LeetCode Topics End-->
