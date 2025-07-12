@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/0125-valid-palindrome) |
 | [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/nagarajp2004/leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0160-intersection-of-two-linked-lists](https://github.com/nagarajp2004/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/nagarajp2004/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/nagarajp2004/leetcode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0392-is-subsequence) |
@@ -502,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/nagarajp2004/leetcode/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/nagarajp2004/leetcode/tree/master/0146-lru-cache) |
 | [0149-max-points-on-a-line](https://github.com/nagarajp2004/leetcode/tree/master/0149-max-points-on-a-line) |
+| [0160-intersection-of-two-linked-lists](https://github.com/nagarajp2004/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/nagarajp2004/leetcode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/nagarajp2004/leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/nagarajp2004/leetcode/tree/master/0205-isomorphic-strings) |
@@ -552,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/nagarajp2004/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/nagarajp2004/leetcode/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/nagarajp2004/leetcode/tree/master/0148-sort-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/nagarajp2004/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0237-delete-node-in-a-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0908-middle-of-the-linked-list) |
