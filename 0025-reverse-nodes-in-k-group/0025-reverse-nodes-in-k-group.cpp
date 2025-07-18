@@ -9,54 +9,54 @@
  * };
  */
 class Solution {
-public: 
-ListNode* rev(ListNode* head)
-{
-      if(!head){
+public:
+     ListNode* reverse(ListNode* head){
+        ListNode* cur=head;
+        ListNode* next;
+        ListNode* prev=NULL;
+    if(!head){
         return NULL;
-      }
+    }
 
-      ListNode* prev=NULL,*cur=head,*next;
-      while(cur){
-        next=cur->next;
-        cur->next=prev;
-        prev=cur;
-        cur=next; 
-      }
-      return prev;
-}
-    ListNode* reverseKGroup(ListNode* head, int k) {
-       if(head==NULL){
-        return NULL;
-       }
+        while(cur){
+            next=cur->next;
+            cur->next=prev;
+            prev=cur;
+            cur=next;
+        }
+        return prev;
+     }
 
-       ListNode* cur=head,*prev=NULL,*next=NULL;
-       ListNode* first=NULL;
-       ListNode* newhead=NULL;
-       while(cur){
-          first=cur;
-          for(int i=0;i<k-1;i++){
-            if(cur==NULL){
-              return newhead;
+    ListNode* reverseKGroup(ListNode* head, int k)
+     {
+        
+
+        ListNode* nhead=new ListNode(-1);
+        ListNode* nlast=nhead;
+        ListNode* cur=head;
+        int flag=0;
+        ListNode* prev,*start=head;
+        while(cur){
+            for(int i=0;i<k;i++){
+                prev=cur;
+                if(!cur){
+                    flag=1;
+                    break;
+
+                }
+                cur=cur->next;
             }
-            cur=cur->next;
-           
-          }
-         if(cur==NULL){
-            break;
-         }
-          next=cur->next;
-          cur->next=NULL;
-          if(prev!=NULL){
-            prev->next=rev(first);
-          }
-          else{
-            newhead=rev(first);
-          }
-          prev=first;
-          first->next=next;
-          cur=next;
-       }
-       return newhead;
+            if(flag==0){
+            prev->next=NULL;
+            nlast->next=reverse(start);
+            while(nlast->next){
+                nlast=nlast->next;
+            }}
+            else{
+                nlast->next=start;
+            }
+            start=cur;
+        }
+      return nhead->next;
     }
 };
