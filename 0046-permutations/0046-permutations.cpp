@@ -1,22 +1,51 @@
 class Solution {
 public:
-   void f(vector<vector<int>>&ans,vector<int>nums,int index)
+   vector<int> f(vector<int>& nums)
    {
-        if(index==nums.size()){
-            ans.push_back(nums);
-            return;
-        }
 
-        for(int i=index;i<nums.size();i++){
-           swap(nums[index],nums[i]);
-           f(ans,nums,index+1);
-        } 
+     int n=nums.size();
+     int i=n-2;
+     while(i>=0 && nums[i] >=nums[i+1]   )i--;
+
+     if( i< 0){
+        reverse(nums.begin(),nums.end());
+        return nums;
+     }
+
+     int j=n-1;
+
+     for(;j>=0;j--){
+
+          if(nums[j] > nums[i])
+          {
+            break;
+          }
+       }
+       swap(nums[i],nums[j]);
+    
+    reverse(nums.begin()+i+1,nums.end());
+       return nums;
    }
-    vector<vector<int>> permute(vector<int>& nums) {
-        
-        vector<vector<int>>ans;
-        int index=0;
-        f(ans,nums,index);
-        return ans;
+
+
+    vector<vector<int>> permute(vector<int>& nums)
+    {
+        sort(nums.begin(),nums.end());
+        vector<vector<int>>res;
+        res.push_back(nums);
+      
+         vector<int>start=nums;
+         
+
+         while(true){
+             nums=f(nums);
+             if(nums==start){
+                break;
+             }
+             
+             res.push_back(nums);
+         
+         }
+   return res;
     }
 };
