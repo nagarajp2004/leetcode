@@ -1,56 +1,50 @@
 class Solution {
 public:
-   bool check(vector<string>&board,int row,int col,int n)
-   {
-         int i=row,j=col;
-         while(row>-1 && col>-1){
-            if(board[row][col]=='Q'){
-                return false;
-            }
-            row--,col--;
-         }
-
-
-
-         while(i>-1 && j<n){
-             if(board[i][j]=='Q'){
-                return false;
-                
-             }
-             i--,j++;
-         }
-         return true;
-   }
- 
-
-void f(int row,int n,vector<vector<string>>&ans,vector<string>board,vector<int>col){
-    
-     if(row==n){
-    ans.push_back(board);
-   return;
-     }
-        for(int j=0;j<n;j++)
-        {
-          if(col[j]==0 && check(board,row,j,n)){
-                board[row][j]='Q';
-                col[j]=1;
-                f(row+1,n,ans,board,col); 
-                board[row][j]='.';
-                col[j]=0;    
-          }
-        }
-    } 
-
-    vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>>ans;
-        vector<string>st(n);
-    for(int i=0;i<n;i++)
-    for(int j=0;j<n;j++)
-        st[i].push_back('.');
+    bool check_for_diag(vector<string>&s,int i,int j){
       
+       int x=i,y=j;
+        while(i>=0 && j>=0){
+             if(s[i][j]=='Q'){
+                return false;
+             }
+             i--;
+             j--;
+        }
+        i=x;
+        j=y;
+           while(i>=0 && j<s.size()){
+             if(s[i][j]=='Q'){
+                return false;
+             }
+             i--;
+             j++;
+        }
 
-        vector<int>col(n,0);
-        f(0,n,ans,st,col);
-        return ans;
+        return true;
+    }
+    void recur(int i,vector<int>&col,vector<string>&board,vector<vector<string>>&sol,int n)
+    {
+        if(i>=n){
+            sol.push_back(board);
+            return;
+        }
+        for(int j=0;j<n;j++){
+             if(col[j]==-1 && check_for_diag(board,i,j)){
+                 col[j]=1;
+                 board[i][j]='Q';
+                 recur(i+1,col,board,sol,n);
+                 board[i][j]='.';
+                 col[j]=-1;
+             }
+        }
+    }
+    vector<vector<string>> solveNQueens(int n) {
+   vector<string> board(n, string(n, '.'));
+
+        vector<int>col(n,-1);
+        vector<vector<string>>sol;
+        recur(0,col,board,sol,n);
+        return sol;
+    
     }
 };
