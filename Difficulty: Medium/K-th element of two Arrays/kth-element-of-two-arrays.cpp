@@ -1,82 +1,39 @@
-//{ Driver Code Starts
-#include <bits/stdc++.h>
-using namespace std;
-
-
-// } Driver Code Ends
-// } Driver Code Ends
 class Solution {
-  public:
+public:
     int kthElement(vector<int>& a, vector<int>& b, int k) {
-        int cnt = 0;
-        int i = 0;
-        int j = 0;
         int n1 = a.size();
         int n2 = b.size();
-        
-        // Merge two sorted arrays until we reach the kth element
-        while (i < n1 && j < n2) {
-            if (a[i] < b[j]) {
-                cnt++;
-                if (cnt == k) return a[i];
-                i++;
+
+        // Always binary search on the smaller array
+        if (n1 > n2)
+            return kthElement(b, a, k);
+
+        // ✅ Correct binary search range over number of elements to take from a
+        int l = max(0, k - n2), h = min(k, n1);
+
+        while (l <= h) {
+            int mid1 = (l + h) / 2;
+            int mid2 = k - mid1;
+
+            // ✅ Boundaries setup
+            int l1 = (mid1 == 0) ? INT_MIN : a[mid1 - 1];
+            int l2 = (mid2 == 0) ? INT_MIN : b[mid2 - 1];
+            int r1 = (mid1 == n1) ? INT_MAX : a[mid1];
+            int r2 = (mid2 == n2) ? INT_MAX : b[mid2];
+
+            // ✅ Correct partition condition
+            if (l1 <= r2 && l2 <= r1) {
+                return max(l1, l2);  // kth element found
+            }
+            else if (l1 > r2) {
+                // Too many from a, go left
+                h = mid1 - 1;
             } else {
-                cnt++;
-                if (cnt == k) return b[j];
-                j++;
+                // Too few from a, go right
+                l = mid1 + 1;
             }
         }
-        
-        // If elements remain in array a
-        while (i < n1) {
-            cnt++;
-            if (cnt == k) return a[i];
-            i++;
-        }
-        
-        // If elements remain in array b
-        while (j < n2) {
-            cnt++;
-            if (cnt == k) return b[j];
-            j++;
-        }
-        
-        return -1; // Edge case: k is invalid
+
+        return -1; // Should never reach here if inputs are valid
     }
 };
-
-    
-
-//{ Driver Code Starts.
-
-// Driver code
-int main() {
-    int t;
-    cin >> t;
-    cin.ignore();
-    while (t--) {
-        int n, m, k;
-        cin >> k;
-        cin.ignore();
-        string input;
-        int num;
-        vector<int> a, b;
-
-        getline(cin, input);
-        stringstream s2(input);
-        while (s2 >> num) {
-            a.push_back(num);
-        }
-
-        getline(cin, input);
-        stringstream s3(input);
-        while (s3 >> num) {
-            b.push_back(num);
-        }
-
-        Solution ob;
-        cout << ob.kthElement(a, b, k) << endl << "~\n";
-    }
-    return 0;
-}
-// } Driver Code Ends
