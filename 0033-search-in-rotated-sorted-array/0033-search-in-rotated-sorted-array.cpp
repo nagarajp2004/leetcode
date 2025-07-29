@@ -1,30 +1,30 @@
 class Solution {
 public:
-    int search(vector<int>& nums, int tar) {
-        int i=0,j=nums.size()-1;
-        while(i<=j){
-            int mid=i+(j-i)/2;
-            int x=nums[mid];
-            if(x==tar){
+    int search(vector<int>& nums, int target) {
+        int l=0;
+        int h=nums.size()-1;
+        while(h>=l){
+            int mid=(l+h)/2;
+            if(nums[mid]==target){
                 return mid;
             }
-            else if(nums[0]<=nums[mid])
-            {
-                 if(tar>=nums[i] && tar<=x){
-                    j=mid-1;
-                 }else{
-                    i=mid+1;
-                 }
+            else if(nums[l] <=nums[mid]){
+            if(nums[l] <= target && nums[mid] > target){
+                h=mid-1;
+            }else{
+                l=mid+1;
             }
-            else
-            {
-                  if(tar >= x && tar <=nums[j]){
-                         i=mid+1;
-                  }else{
-                     j=mid-1;
-                  }
             }
-           
+            else{
+                if (nums[mid] <= target && target <= nums[h]) {
+                //element exists:
+                l = mid + 1;
+            }
+            else {
+                //element does not exist:
+                h = mid - 1;
+            }
+            }
         }
         return -1;
     }
