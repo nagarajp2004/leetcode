@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/nagarajp2004/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/nagarajp2004/leetcode/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/nagarajp2004/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/nagarajp2004/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/nagarajp2004/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/nagarajp2004/leetcode/tree/master/0410-split-array-largest-sum) |
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/nagarajp2004/leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/nagarajp2004/leetcode/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/nagarajp2004/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/nagarajp2004/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0435-non-overlapping-intervals](https://github.com/nagarajp2004/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/nagarajp2004/leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/nagarajp2004/leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/nagarajp2004/leetcode/tree/master/0268-missing-number) |
 | [0290-word-pattern](https://github.com/nagarajp2004/leetcode/tree/master/0290-word-pattern) |
+| [0347-top-k-frequent-elements](https://github.com/nagarajp2004/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/nagarajp2004/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/nagarajp2004/leetcode/tree/master/0383-ransom-note) |
 | [0451-sort-characters-by-frequency](https://github.com/nagarajp2004/leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -586,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0190-reverse-bits](https://github.com/nagarajp2004/leetcode/tree/master/0190-reverse-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/nagarajp2004/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/nagarajp2004/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/nagarajp2004/leetcode/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0954-maximum-sum-circular-subarray) |
@@ -600,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/nagarajp2004/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0347-top-k-frequent-elements](https://github.com/nagarajp2004/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/nagarajp2004/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0502-ipo](https://github.com/nagarajp2004/leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
@@ -611,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/nagarajp2004/leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -661,6 +667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/nagarajp2004/leetcode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/nagarajp2004/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/nagarajp2004/leetcode/tree/master/0383-ransom-note) |
 | [0451-sort-characters-by-frequency](https://github.com/nagarajp2004/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
@@ -676,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/nagarajp2004/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/nagarajp2004/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0948-sort-an-array) |
 ## Radix Sort
