@@ -1,48 +1,46 @@
 class Solution {
 public:
-     int posible(vector<int>&x,int day,int m,int k)
-     {
-          int count=0;
-          int nocount=0;
-          for(int i=0;i<x.size();i++)
-          {
-               if(x[i]<=day){
-                count++;
-               }
-               else{
-                nocount+=count/k;
-                count=0;
-               }
-          }
-          nocount+=count/k;
-         if(nocount>=m){
-            return 1;
-         }
-         else{
-            return 0;
-         }
-     }
-    int minDays(vector<int>& b, int m, int k)
-    {
-        long long x=m*1LL*k*1LL;
-        if(b.size()<x){
-            return -1;
+    int check(vector<int>& arr,int k,int d){
+        
+        int count=0;
+        
+        int adj=k;
+        for(int i=0;i<arr.size();i++){
+           if(arr[i] <=d){
+            adj--;
+                if(adj==0){
+                   count++;
+                   adj=k;
+                    }
+           }else{
+                adj=k;
+           }      
         }
-       
+      return count;
+    }
+
+    int minDays(vector<int>& b, int m, int k) {
         int mini=*min_element(b.begin(),b.end());
         int maxi=*max_element(b.begin(),b.end());
-         int ans=maxi;
-        while(maxi>=mini){
-            int mid=(maxi+mini)/2;
-          
-            if(posible(b,mid,m,k)){
-               ans=min(ans,mid);
-               maxi=mid-1;
-               
-            }
-            else{
-                mini=mid+1;
-            }
+
+       int n=b.size();
+       
+       long long x=1ll*m*k;
+       if(n< x){
+        return -1;
+       }
+        int i=mini;
+        int j=maxi;
+        int ans=-1;
+        while(i<=j){
+            int mid=(i+j)/2;
+            int cnt=check(b,k,mid);
+         if(cnt >= m){
+              ans=mid;
+              j=mid-1;
+         }else{
+           i=mid+1;
+         }
         }
         return ans;
     }
