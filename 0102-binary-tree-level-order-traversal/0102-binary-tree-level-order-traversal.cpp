@@ -16,35 +16,28 @@ public:
             return {};
         }
         queue<TreeNode*>q;
-       vector<vector<int>>ans;
-       vector<int>part;
-     q.push(root);
+        q.push(root);
+        vector<vector<int>>ans;
 
-     while(!q.empty())
-     {
-         int level=q.size();
-             for(int i=0;i<level;i++){
-               
-                TreeNode* x=q.front();
-                part.push_back(x->val);
+        while(!q.empty()){
+            int n=q.size();
+            vector<int>x;
+            for(int i=0;i<n;i++){
+               TreeNode* temp=q.front();
                 q.pop();
-                if(x->left){
-                    q.push(x->left);
+                if(temp && temp->left!=NULL){
+                    q.push(temp->left);
                 }
-                if(x->right){
-                    q.push(x->right);
+                if(temp && temp->right!=NULL){
+                    q.push(temp->right);
                 }
-             }
-             if(!part.empty()){
-                ans.push_back(part);
-                part.clear();
+                if(temp)
+                x.push_back(temp->val);
 
-             } 
-           
+            }
 
-     }
-     return ans;
-
-
+            ans.push_back(x);
+        }
+        return ans;
     }
 };
