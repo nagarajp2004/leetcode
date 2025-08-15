@@ -12,51 +12,54 @@
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        stack<TreeNode*>left,right;
-      
-        vector<vector<int>>ans;
+        
+        stack<TreeNode*>stl;
+        stack<TreeNode*>str;
+        
          if(root==NULL){
-            return ans;
+            return {};
          }
-       right.push(root);
+        str.push(root);
+        vector<vector<int>>ans;
 
-       while(!right.empty() || !left.empty())
-       {    if(right.empty() && left.empty()){
+        while(!stl.empty() || !str.empty()){
+            if(stl.empty() && str.empty()){
               break;
-                }
+            }
+           vector<int>x;
+            if(stl.empty()){
+                 while(!str.empty()){
+                    TreeNode* temp=str.top();
+                    str.pop();
+                     
+                     if(temp->left){
+                        stl.push(temp->left);
+                     }
+                     if(temp->right){
+                        stl.push(temp->right);
+                     }
+                     x.push_back(temp->val);
+                 }
+            }else{
 
-            if(left.empty())
-            {
-                  vector<int>temp;
-                  int n=right.size();
-                  for(int i=0;i<n;i++){
-                    TreeNode* d=right.top();
-                    right.pop();
-                    temp.push_back(d->val);
-                    if(d->left)
-                    left.push(d->left);
-                    if(d->right)
-                    left.push(d->right);
-                  }
-               ans.push_back(temp);
-               
-            }else if(right.empty())
-            {
-                 vector<int>temp;
-                  int n=left.size();
-                  for(int i=0;i<n;i++){
-                    TreeNode* d=left.top();
-                    left.pop();
-                    temp.push_back(d->val);
-                    if(d->right)
-                    right.push(d->right);
-                    if(d->left)
-                    right.push(d->left);
-                  }
-               ans.push_back(temp);
+                while(!stl.empty()){
+                    TreeNode* temp=stl.top();
+                    stl.pop();
+                     
+                     if(temp->right){
+                        str.push(temp->right);
+                     }
+                     if(temp->left){
+                        str.push(temp->left);
+                     }
+                     x.push_back(temp->val);
+                 }
+
+
             }
 
-       } 
-      return ans;
+            ans.push_back(x);
+        }
+        return ans;
     }
 };
