@@ -11,19 +11,15 @@
  */
 class Solution {
 public:
-   int traversal(TreeNode* root)
-   {
-      if(root==NULL){
-           
+    int maxDepth(TreeNode* root) {
+       if(root==NULL){
         return 0;
-      }
-      return max(traversal(root->left),traversal(root->right))+1;
+       }
 
-   }
-    int maxDepth(TreeNode* root) 
-    {
-        
-        
-        return traversal(root);
+        if(root->left ==NULL  && root ->right == NULL){
+            return 1;
+        }
+
+        return 1 + max(maxDepth(root->left),maxDepth(root->right));
     }
 };
