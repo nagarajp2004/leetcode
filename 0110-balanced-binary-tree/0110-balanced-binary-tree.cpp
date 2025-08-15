@@ -11,31 +11,32 @@
  */
 class Solution {
 public:
-    int recur(TreeNode* root)
+    int f(TreeNode* root,bool& val)
     {
         if(root==NULL){
             return 0;
         }
+        if(val==false){
+            return 0;
+        }
+      
+       int l=f(root->left,val);
+       int r=f(root->right,val);
 
-        int max_height=recur(root->left);
-         if(max_height==-1){
-            return -1;
-         }
+       if(abs(r-l) >1){
+        val=false;
+       return 0;
+       }
 
-         int max_height2=recur(root->right);
-         if(max_height2==-1){
-            return -1;
-         }
+       return 1+ max(l,r);
 
-         if(abs(max_height2-max_height)>1){
-              return -1;
-         }
 
-         return max(max_height,max_height2)+1;
-         
     }
 
-    bool isBalanced(TreeNode* root) {
-        return recur(root)==-1?false:true;;
+    bool isBalanced(TreeNode* root)
+    {
+        bool val=true;
+        f(root,val);
+       return val;
     }
 };
