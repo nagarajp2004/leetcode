@@ -1,28 +1,27 @@
 class Solution {
 public:
-
-
-    int numberOfSubstrings(string s) 
-    {
-        map<char,int>mpp;
-        int low=0;
-        int ans=0;
+    int f(string s ,int k){
+        unordered_map<char,int>mpp;
+        int i=0,j=0;
         int n=s.size();
-        for(int i=0;i<s.size();i++){
-          
-              mpp[s[i]]++;  
-             
-             while(mpp.size()==3 && low<n){
-                ans+=n-i;
-               
-                mpp[s[low]]--;
-                if(mpp[s[low]]<=0){
-                    mpp.erase(s[low]);
+         int ans=0;
+        while(j < n)
+        {
+            mpp[s[j]]++;
+            while(mpp.size() > k){
+                mpp[s[i]]--;
+                if(mpp[s[i]] <=0){
+                    mpp.erase(s[i]);
                 }
-                low++;
-             }
+                i++;
+            }
+            ans+=j-i+1;
+            j++;
         }
         return ans;
+    }
 
+    int numberOfSubstrings(string s) {
+        return f(s,3) -f(s,2);
     }
 };
