@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0735-asteroid-collision](https://github.com/nagarajp2004/leetcode/tree/master/0735-asteroid-collision) |
+| [0876-hand-of-straights](https://github.com/nagarajp2004/leetcode/tree/master/0876-hand-of-straights) |
 | [0907-koko-eating-bananas](https://github.com/nagarajp2004/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/nagarajp2004/leetcode/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/nagarajp2004/leetcode/tree/master/0943-sum-of-subarray-minimums) |
@@ -375,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0502-ipo](https://github.com/nagarajp2004/leetcode/tree/master/0502-ipo) |
 | [0561-array-partition](https://github.com/nagarajp2004/leetcode/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
+| [0876-hand-of-straights](https://github.com/nagarajp2004/leetcode/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/nagarajp2004/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2032-largest-odd-number-in-string](https://github.com/nagarajp2004/leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Sorting
@@ -402,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0561-array-partition](https://github.com/nagarajp2004/leetcode/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
+| [0876-hand-of-straights](https://github.com/nagarajp2004/leetcode/tree/master/0876-hand-of-straights) |
 | [0948-sort-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0948-sort-an-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/nagarajp2004/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
@@ -553,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/nagarajp2004/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
+| [0876-hand-of-straights](https://github.com/nagarajp2004/leetcode/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/nagarajp2004/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0940-fruit-into-baskets](https://github.com/nagarajp2004/leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/nagarajp2004/leetcode/tree/master/0966-binary-subarrays-with-sum) |
