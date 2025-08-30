@@ -2,37 +2,35 @@ class Solution {
   public:
     int maxProduct(vector<int> &arr) {
         // code here
-        int left =1;
+        int l=1;
         int maxi=INT_MIN;
-         int n=arr.size();
-        if(n==1){
-            return arr[0];
-        }
-        
-        
-        
-        for(int i=0;i<arr.size();i++)
-        {
-             if(left==0){
-              left=1;
-          }
-          left*=arr[i];
-          maxi=max(maxi,left);
-         
-          
-        }
-       
-        int right=1;
-        for(int j=n-1;j>=0;j--){
-          
-            if(right==0){
-                right=1;
+        for(int i=0;i<arr.size();i++){
+            if(arr[i]==0){
+                l=1;
+            }else{
+            l*=arr[i];
+                 maxi=max(maxi,l);
             }
-            right*=arr[j];
-          
-            maxi=max(maxi,right);
+           
         }
-        return maxi;
+        int r=1;
+        for(int j=arr.size()-1;j>=0;j--){
+            if(arr[j]==0){
+                r=1;
+            }else{
+            r*=arr[j];
+             maxi=max(maxi,r);
+            }
+           
+        }
+     for(auto i:arr){
+         if(i==0){
+             if(maxi<0){
+                 return 0;
+             }
+         }
+     }
         
+        return maxi;
     }
 };
