@@ -263,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/nagarajp2004/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/nagarajp2004/leetcode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0392-is-subsequence) |
+| [0443-string-compression](https://github.com/nagarajp2004/leetcode/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0908-middle-of-the-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0908-middle-of-the-linked-list) |
@@ -304,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0392-is-subsequence) |
 | [0402-remove-k-digits](https://github.com/nagarajp2004/leetcode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/nagarajp2004/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0443-string-compression](https://github.com/nagarajp2004/leetcode/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/nagarajp2004/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/nagarajp2004/leetcode/tree/master/0583-delete-operation-for-two-strings) |
