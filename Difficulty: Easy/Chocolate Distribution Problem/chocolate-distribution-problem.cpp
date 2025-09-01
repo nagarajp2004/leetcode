@@ -2,18 +2,16 @@ class Solution {
   public:
     int findMinDiff(vector<int>& a, int m) {
         // code here
+        sort(a.begin(),a.end());
         int i=0;
         int j=m-1;
-        sort(a.begin(),a.end());
         int n=a.size();
-        if(n<m){
-            return -1;
+        int ans=INT_MAX;
+        while(j<n){
+            ans=min(ans,a[j]-a[i]);
+            i++;
+            j++;
         }
-        int mini=INT_MAX;
-        for(;j<n;j++,i++)
-        {
-            mini=min(mini,a[j]-a[i]); 
-        }
-        return mini;
+        return ans;
     }
 };
