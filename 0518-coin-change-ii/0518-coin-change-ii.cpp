@@ -1,33 +1,32 @@
 class Solution {
 public:
-      int f(int ind,int tar,vector<int>& coins,vector<vector<int>>&dp)
-      {
-        if(tar==0)
-        {
+    int f(int i,vector<int>&arr,int sum,vector<vector<int>>&dp){
+        if(sum==0){
             return 1;
         }
-         if(ind==0)
-         {
-            if(tar%coins[0]==0)
-            {
+        
+          if(i==0){
+            if(sum%arr[i]==0){
                 return 1;
+            }else{
+                return 0;
             }
-            return 0;
-         }
-        if(dp[ind][tar]!=-1){
-            return dp[ind][tar];
-        }
-      int nottake=f(ind-1,tar,coins,dp);
+          }
+
+          if(dp[i][sum]!=-1){
+            return dp[i][sum];
+          }
+      
+      int nottake =f(i-1,arr,sum,dp);
       int take=0;
-      if(tar>=coins[ind])
-      {
-          take=f(ind,tar-coins[ind],coins,dp);
+      if(arr[i] <=sum){
+        take=f(i,arr,sum-arr[i],dp);
       }
-     return dp[ind][tar]=take+nottake;
-      }
-    int change(int amount, vector<int>& coins)
-    {
-        vector<vector<int>>dp(coins.size(),vector<int>(amount+1,-1));
-       return f(coins.size()-1,amount,coins,dp); 
+      return  dp[i][sum]=take +nottake;
+    }
+    int change(int amount, vector<int>& coins) {
+        int n=coins.size();
+        vector<vector<int>>dp(n,vector<int>(amount+1,-1));
+        return f(n-1,coins,amount,dp);
     }
 };
