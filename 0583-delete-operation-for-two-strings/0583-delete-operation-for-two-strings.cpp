@@ -1,25 +1,19 @@
 class Solution {
-public:
-      int f(int i,int j,string a,string b,vector<vector<int>>&vt)
-      {
+  public:
+     int f(int i,int j,string w1,string w2){
         if(i<0 || j<0){
             return 0;
         }
-        if(vt[i][j]!=-1)
-        {
-            return vt[i][j];
+        if(w1[i]==w2[j]){
+            return 1+ f(i-1,j-1,w1,w2);
         }
-        if(a[i]==b[j]){
-            return vt[i][j]= 1+ f(i-1,j-1,a,b,vt);
-        }
-        return vt[i][j]=max(f(i-1,j,a,b,vt),f(i,j-1,a,b,vt));
-      } 
-
-    int minDistance(string word1, string word2) {
-        int n=word1.size();
-        int m=word2.size();
-        vector<vector<int>>vt(n,vector<int>(m,-1));
-        int ans=f(n-1,m-1,word1,word2,vt);
-           return (n+m)-(ans*2);
+        return max(f(i-1,j,w1,w2) ,f(i,j-1,w1,w2));
+     }
+   
+    int minDistance(string w1, string w2) {
+        int n1=w1.size();
+        int n2=w2.size();
+        int sum=n1+n2;
+        return  sum-f(n1-1,n2-1,w1,w2)*2;
     }
 };
