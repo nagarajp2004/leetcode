@@ -1,18 +1,16 @@
-// User function Template for C++
-
 class Solution {
   public:
-    vector<int> minPartition(int N) {
+    int findMin(int n) {
         // code here
-        vector<int>den({2000,500,200,100,50,20,10,5,2,1});
-       vector<int>ans;
-       
-       for(int i=0;i<den.size();i++){
-           while(den[i]<=N){
-               ans.push_back(den[i]);
-               N-=den[i];
-           }
-       }
-       return ans;
+        vector<int>d={10,5,2,1};
+        int cnt=0;
+        
+        for(int i=0;i<5;i++){
+            if(d[i] <= n && n>0){
+                cnt+=(n/d[i]);
+                n=n%d[i];
+            }
+        }
+        return cnt;
     }
 };
