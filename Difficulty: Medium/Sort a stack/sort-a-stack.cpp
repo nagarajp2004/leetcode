@@ -1,81 +1,29 @@
-//{ Driver Code Starts
-#include<bits/stdc++.h>
-using namespace std;
-
-class SortedStack{
-public:
-	stack<int> s;
-	void sort();
+class Solution {
+  public:
+    void f(stack<int>& st){
+        if(st.size() <=1){
+            return ;
+        }
+        int x=st.top();
+        st.pop();
+        f(st);
+        int y=st.top();
+        st.pop();
+        
+        if(x<y){
+            st.push(x);
+            st.push(y);
+        }else{
+            st.push(y);
+            st.push(x);
+        }
+        
+    }
+  
+    void sortStack(stack<int> &st) {
+        // code here
+        int n=st.size();
+        for(int i=0;i<n;i++)
+        f(st);
+    }
 };
-
-void printStack(stack<int> s)
-{
-    while (!s.empty())
-    {
-        printf("%d ", s.top());
-       	s.pop();
-    }
-    printf("\n");
-}
-
-int main()
-{
-int t;
-cin>>t;
-while(t--)
-{
-	SortedStack *ss = new SortedStack();
-	int n;
-	cin>>n;
-	for(int i=0;i<n;i++)
-	{
-	int k;
-	cin>>k;
-	ss->s.push(k);
-	}
-	ss->sort();
-	printStack(ss->s);
-
-cout << "~" << "\n";
-}
-}
-// } Driver Code Ends
-
-
-/*The structure of the class is
-class SortedStack{
-public:
-    stack<int> s;
-    void sort();
-};
-*/
-
-/* The below method sorts the stack s
-you are required to complete the below method */
-void insert_it(stack<int>&st,int x)
-{
-    if(st.empty()|| st.top()<x){
-        st.push(x);
-        return ;
-    }
-    
-    int y=st.top();
-    st.pop();
-    insert_it(st,x);
-    st.push(y);
-}
-
-
-void SortedStack ::sort() {
-    // Your code here
-    if(s.size()==0)
-    {
-        return ;
-    }
-    
-    int x=s.top();
-    s.pop();
-    sort();
-    insert_it(s,x);
-    
-}
