@@ -1,32 +1,23 @@
 class Solution {
 public:
-void recur(vector<string>&vt,int o,int c,int n,string temp){
+    void f(int l,int r,vector<string>&s,string temp)
+     {
+        if(l<=0 && r<=0){
+            s.push_back(temp);
+            return ;
+        }
+        if(l>0){
+            f(l-1,r,s,temp+'(');
+        }
+        if(l<r){
+            f(l,r-1,s,temp+')');
+        }
+     }
 
-    
-       if(o==n && c==n){
-        vt.push_back(temp);
-        return ;
-       }
-     
-
-    if(o<n)
-    {
-        recur(vt,o+1,c,n,temp+'(');
-    }
-    if(c<o){
-         recur(vt,o,c+1,n,temp+')');
-    }
-
-}
-   
-
-    vector<string> generateParenthesis(int n)
-    {
-        int o=0,c=0;
-        vector<string>vt;
+    vector<string> generateParenthesis(int n) {
+        vector<string>st;
         string temp;
-        recur(vt,o,c,n,temp);
-        return vt;
-   
+        f(n,n,st,temp);
+        return st;
     }
 };
