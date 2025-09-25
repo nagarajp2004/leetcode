@@ -329,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/nagarajp2004/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/nagarajp2004/leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/nagarajp2004/leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/nagarajp2004/leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1894-merge-strings-alternately](https://github.com/nagarajp2004/leetcode/tree/master/1894-merge-strings-alternately) |
@@ -723,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/nagarajp2004/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/nagarajp2004/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nagarajp2004/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/nagarajp2004/leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/nagarajp2004/leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/nagarajp2004/leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/nagarajp2004/leetcode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
