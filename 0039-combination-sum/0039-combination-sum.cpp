@@ -1,31 +1,32 @@
 class Solution {
 public:
-     void recur(vector<int>&c,int t,int i,vector<vector<int>>&ans,vector<int>&temp)
-     {
-        if(t==0){
+    void f(int i,int tar,vector<vector<int>>&ans,vector<int>&arr,vector<int>&temp){
+        if(i<0){
+            return ;
+         }
+        
+         if(tar==0){
             ans.push_back(temp);
             return;
-        }
-        if(t<0){
+          }
+          if(tar<0){
             return;
-        }
-        if(i==c.size()){
-            return ;
-        }
-       
-       recur(c,t,i+1,ans,temp);
-       temp.push_back(c[i]);
-       recur(c,t-c[i],i,ans,temp);
-       temp.pop_back();
-
-     }
+          }
 
 
-    vector<vector<int>> combinationSum(vector<int>& c, int t) {
+        temp.push_back(arr[i]);
+      f(i,tar-arr[i],ans,arr,temp);
+      temp.pop_back();
+      f(i-1,tar,ans,arr,temp);
+    }
+ 
+
+    vector<vector<int>> combinationSum(vector<int>& ca, int target) 
+    {
         vector<vector<int>>ans;
         vector<int>temp;
-        int sum=0;
-        recur(c,t,0,ans,temp);
+        int n=ca.size();
+        f(n-1,target,ans,ca,temp);
         return ans;
     }
 };
