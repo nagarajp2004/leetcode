@@ -1,14 +1,14 @@
 class Solution {
 public:
     bool increasingTriplet(vector<int>& nums) {
-        int s=INT_MAX;
-        int m=INT_MAX;
+        int first=INT_MAX;
+        int sec=INT_MAX;
 
-        for(auto& i: nums){
-            if(s>=i){
-                s=i;
-            }else if(m >=i){
-                m=i;
+        for(auto i: nums){
+            if(i<=first){
+                first=i;
+            }else if(i<=sec){
+                sec=i;
             }else{
                 return true;
             }
