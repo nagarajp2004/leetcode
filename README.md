@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/nagarajp2004/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0808-number-of-matching-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0943-sum-of-subarray-minimums](https://github.com/nagarajp2004/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0954-maximum-sum-circular-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0735-asteroid-collision](https://github.com/nagarajp2004/leetcode/tree/master/0735-asteroid-collision) |
+| [0808-number-of-matching-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0876-hand-of-straights](https://github.com/nagarajp2004/leetcode/tree/master/0876-hand-of-straights) |
 | [0907-koko-eating-bananas](https://github.com/nagarajp2004/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/nagarajp2004/leetcode/tree/master/0940-fruit-into-baskets) |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0535-encode-and-decode-tinyurl](https://github.com/nagarajp2004/leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0583-delete-operation-for-two-strings](https://github.com/nagarajp2004/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0778-reorganize-string](https://github.com/nagarajp2004/leetcode/tree/master/0778-reorganize-string) |
+| [0808-number-of-matching-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0812-rotate-string](https://github.com/nagarajp2004/leetcode/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/nagarajp2004/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/nagarajp2004/leetcode/tree/master/1078-remove-outermost-parentheses) |
@@ -440,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/nagarajp2004/leetcode/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/nagarajp2004/leetcode/tree/master/0778-reorganize-string) |
+| [0808-number-of-matching-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0876-hand-of-straights](https://github.com/nagarajp2004/leetcode/tree/master/0876-hand-of-straights) |
 | [0948-sort-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0948-sort-an-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/nagarajp2004/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -515,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/nagarajp2004/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0808-number-of-matching-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0907-koko-eating-bananas](https://github.com/nagarajp2004/leetcode/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/nagarajp2004/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/nagarajp2004/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -602,6 +607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0778-reorganize-string](https://github.com/nagarajp2004/leetcode/tree/master/0778-reorganize-string) |
+| [0808-number-of-matching-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0876-hand-of-straights](https://github.com/nagarajp2004/leetcode/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/nagarajp2004/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0940-fruit-into-baskets](https://github.com/nagarajp2004/leetcode/tree/master/0940-fruit-into-baskets) |
@@ -817,6 +823,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/nagarajp2004/leetcode/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/nagarajp2004/leetcode/tree/master/0139-word-break) |
+| [0808-number-of-matching-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0808-number-of-matching-subsequences) |
 ## Monotonic Queue
 |  |
 | ------- |
