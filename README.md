@@ -230,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2227-sum-of-subarray-ranges](https://github.com/nagarajp2004/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2308-divide-array-into-equal-pairs](https://github.com/nagarajp2004/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/nagarajp2004/leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nagarajp2004/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/nagarajp2004/leetcode/tree/master/2585-delete-greatest-value-in-each-row) |
 | [2665-minimum-time-to-repair-cars](https://github.com/nagarajp2004/leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/nagarajp2004/leetcode/tree/master/2690-house-robber-iv) |
@@ -633,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/nagarajp2004/leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2215-finding-3-digit-even-numbers](https://github.com/nagarajp2004/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2308-divide-array-into-equal-pairs](https://github.com/nagarajp2004/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nagarajp2004/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/nagarajp2004/leetcode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/nagarajp2004/leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/nagarajp2004/leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -772,6 +774,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nagarajp2004/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/nagarajp2004/leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/nagarajp2004/leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nagarajp2004/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/nagarajp2004/leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/nagarajp2004/leetcode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/nagarajp2004/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
