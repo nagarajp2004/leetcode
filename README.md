@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/nagarajp2004/leetcode/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/nagarajp2004/leetcode/tree/master/0455-assign-cookies) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0567-permutation-in-string](https://github.com/nagarajp2004/leetcode/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
@@ -333,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0468-validate-ip-address](https://github.com/nagarajp2004/leetcode/tree/master/0468-validate-ip-address) |
 | [0516-longest-palindromic-subsequence](https://github.com/nagarajp2004/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0535-encode-and-decode-tinyurl](https://github.com/nagarajp2004/leetcode/tree/master/0535-encode-and-decode-tinyurl) |
+| [0567-permutation-in-string](https://github.com/nagarajp2004/leetcode/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/nagarajp2004/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0778-reorganize-string](https://github.com/nagarajp2004/leetcode/tree/master/0778-reorganize-string) |
 | [0808-number-of-matching-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0808-number-of-matching-subsequences) |
@@ -610,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0535-encode-and-decode-tinyurl](https://github.com/nagarajp2004/leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0560-subarray-sum-equals-k](https://github.com/nagarajp2004/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/nagarajp2004/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/nagarajp2004/leetcode/tree/master/0621-task-scheduler) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0778-reorganize-string](https://github.com/nagarajp2004/leetcode/tree/master/0778-reorganize-string) |
@@ -756,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/nagarajp2004/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/nagarajp2004/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/nagarajp2004/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/nagarajp2004/leetcode/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/nagarajp2004/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/nagarajp2004/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
