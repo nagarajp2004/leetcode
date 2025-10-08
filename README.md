@@ -670,6 +670,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/nagarajp2004/leetcode/tree/master/0355-design-twitter) |
+| [0838-design-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0838-design-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Divide and Conquer
 |  |
@@ -750,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/nagarajp2004/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0535-encode-and-decode-tinyurl](https://github.com/nagarajp2004/leetcode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/nagarajp2004/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0838-design-linked-list](https://github.com/nagarajp2004/leetcode/tree/master/0838-design-linked-list) |
 | [0937-online-stock-span](https://github.com/nagarajp2004/leetcode/tree/master/0937-online-stock-span) |
 ## Sliding Window
 |  |
