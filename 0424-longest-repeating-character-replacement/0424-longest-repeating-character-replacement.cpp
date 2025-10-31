@@ -1,24 +1,24 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        int i=0;
-        int j=0;
-        int maxf=0;
-        int mpp[26]={0};
+        unordered_map<int,int>mpp;
+         int max_len=0;
+         int res=1;
+
+        int left=0;
         int n=s.size();
-        int ans=0;
-        while(j<n){
-            mpp[s[j]-'A']++;
-            maxf=max(maxf,mpp[s[j]-'A']);
-            while((j-i+1)-maxf >k){
-                mpp[s[i]-'A']--;
-                i++;
-            }
-            if((j-i+1)-maxf <=k){
-                ans=max(ans,j-i+1);
-            }
-            j++;
+        for(int right=0;right<n;right++){
+           mpp[s[right]]++;
+         max_len = max(max_len, mpp[s[right]]);
+
+
+           while(left < n && ((right-left + 1 ) - max_len)>k){
+            mpp[s[left]]--;
+            left++;
+           }
+
+           res=max(max_len,right-left+1);
         }
-        return ans;
+        return res;
     }
 };
