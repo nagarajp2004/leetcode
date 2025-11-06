@@ -806,6 +806,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/nagarajp2004/leetcode/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1670-patients-with-a-condition](https://github.com/nagarajp2004/leetcode/tree/master/1670-patients-with-a-condition) |
+| [1908-recyclable-and-low-fat-products](https://github.com/nagarajp2004/leetcode/tree/master/1908-recyclable-and-low-fat-products) |
 ## Counting
 |  |
 | ------- |
