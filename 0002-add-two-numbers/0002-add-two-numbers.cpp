@@ -11,42 +11,37 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-      ListNode* dummy=new ListNode(-1);
-      ListNode* cur=dummy;
-      int carry=0;
+        ListNode* nhead=new ListNode(0);
+        ListNode* cur1=l1,*cur2=l2,*temp=nhead;
+        int car=0;
 
-   while(l1 && l2){
-       int sum=l1->val+l2->val+carry;
-         carry=sum/10;
-         sum=sum%10;
-        cur->next=new ListNode(sum);
-        cur=cur->next;        
-      l1=l1->next;
-      l2=l2->next;
-   }
-  while(l1){
-     int sum=carry+l1->val;
-        carry=sum/10;
-         sum=sum%10;
-     cur->next=new ListNode(sum);
-     cur=cur->next;
-     l1=l1->next;
-  }
-  while(l2){
-     int sum=carry+l2->val;
-        carry=sum/10;
-         sum=sum%10;
-     cur->next=new ListNode(sum);
-     cur=cur->next;
-     l2=l2->next;
-  }
+        while(l1 && l2){
+            int sum=l1->val+l2->val+car;
+            car=sum/10;
+            temp->next=new ListNode(sum%10);
+            temp=temp->next;
+            l1=l1->next;
+            l2=l2->next;
+        }
+        while(l1){
+            int sum=l1->val+car;
+            car=sum/10;
+            temp->next=new ListNode(sum%10);
+            temp=temp->next;
+            l1=l1->next;
+        }
+           while(l2){
+            int sum=l2->val+car;
+            car=sum/10;
+            temp->next=new ListNode(sum%10);
+            temp=temp->next;
+            l2=l2->next;
+        }
+        if(car){
+            temp->next=new ListNode(car);
+        }
 
-  if(carry){
-     cur->next=new ListNode(carry);
-  }
-
-
-   return dummy->next;
+        return nhead->next;
 
     }
 };
