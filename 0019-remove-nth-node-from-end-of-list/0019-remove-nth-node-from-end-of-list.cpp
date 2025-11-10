@@ -10,30 +10,25 @@
  */
 class Solution {
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n)
-    {
-        int len=0;
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode *temp=head;
+        while(temp!=NULL && n>0){
+            n--;
+            temp=temp->next;
+        }
+
         ListNode* cur=head;
-        while(cur!=NULL){
-            len++;
+        ListNode* prev=NULL;
+        while(temp){
+            prev=cur;
             cur=cur->next;
+            temp=temp->next;
         }
-        int k=len-n;
-
-        if(k==0){
-            return head->next;
+        if(prev)
+        prev->next=cur->next;
+        if(cur==head){
+            return cur->next;
         }
-   ListNode* prev=NULL;
-   cur=head;
-   while(k--){
-       prev=cur;
-       cur=cur->next;
-   }
-   prev->next=cur->next;
-   return head;
-      
-
-
-        
+        return head;
     }
 };
