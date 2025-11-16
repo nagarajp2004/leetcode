@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1962-single-threaded-cpu](https://github.com/nagarajp2004/leetcode/tree/master/1962-single-threaded-cpu) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/nagarajp2004/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2047-find-a-peak-element-ii](https://github.com/nagarajp2004/leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2058-concatenation-of-array](https://github.com/nagarajp2004/leetcode/tree/master/2058-concatenation-of-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/nagarajp2004/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2227-sum-of-subarray-ranges](https://github.com/nagarajp2004/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2308-divide-array-into-equal-pairs](https://github.com/nagarajp2004/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -412,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0495-teemo-attacking](https://github.com/nagarajp2004/leetcode/tree/master/0495-teemo-attacking) |
 | [0735-asteroid-collision](https://github.com/nagarajp2004/leetcode/tree/master/0735-asteroid-collision) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/nagarajp2004/leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2058-concatenation-of-array](https://github.com/nagarajp2004/leetcode/tree/master/2058-concatenation-of-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/nagarajp2004/leetcode/tree/master/2585-delete-greatest-value-in-each-row) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/nagarajp2004/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Greedy
