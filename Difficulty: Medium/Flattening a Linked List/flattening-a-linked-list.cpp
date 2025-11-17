@@ -1,51 +1,46 @@
-/* Node structure  used in the program
-
-struct Node{
+/*
+class Node {
+public:
     int data;
-    struct Node * next;
-    struct Node * bottom;
+    Node* next;
+    Node* bottom;
 
-    Node(int x){
+    Node(int x) {
         data = x;
         next = NULL;
         bottom = NULL;
     }
-
 };
 */
 
+class comp{
+   public:
+   bool operator()(Node* a,Node* b){
+       return a->data > b->data;
+   }
+};
+
 class Solution {
   public:
-    // Function which returns the  root of the flattened linked list.
-    Node* merge(Node* a ,Node* b)
-    {
-        Node* res=new Node(0);
-        Node* temp=res;
-        while(a!=NULL && b!=NULL){
-            if(a->data < b->data){
-                temp->bottom=a;
-                temp=temp->bottom;
-                a=a->bottom;
-            }else{
-                temp->bottom=b;
-                b=b->bottom;
-                temp=temp->bottom;
-            }
-        }
-        if(a){
-            temp->bottom=a;
-        }else{
-            temp->bottom=b;
-        }
-        return res->bottom;
-    }
     Node *flatten(Node *root) {
-     
-     if(root==NULL || root->next ==NULL){
-         return root;
-     }
-         root->next=flatten(root->next);
-         
-         return merge(root,root->next);
+        // code here
+        priority_queue<Node* ,vector<Node*>,comp>pq;
+        while(root){
+            pq.push(root);
+            root=root->next;
+        }
+        Node* sol=new Node(0);
+         Node* cur=sol;
+    while(!pq.empty())
+    {
+        cur->bottom=pq.top();
+        cur=cur->bottom;
+        if(pq.top()->bottom){
+            pq.push(pq.top()->bottom);
+        }
+        pq.top()->next=NULL;
+        pq.pop();
+    }    
+    return sol->bottom;
     }
 };
