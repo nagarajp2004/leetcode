@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1923-sentence-similarity-iii](https://github.com/nagarajp2004/leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/nagarajp2004/leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1962-single-threaded-cpu](https://github.com/nagarajp2004/leetcode/tree/master/1962-single-threaded-cpu) |
+| [1975-maximum-matrix-sum](https://github.com/nagarajp2004/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/nagarajp2004/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2047-find-a-peak-element-ii](https://github.com/nagarajp2004/leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2058-concatenation-of-array](https://github.com/nagarajp2004/leetcode/tree/master/2058-concatenation-of-array) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0289-game-of-life](https://github.com/nagarajp2004/leetcode/tree/master/0289-game-of-life) |
 | [0967-minimum-falling-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/nagarajp2004/leetcode/tree/master/1036-rotting-oranges) |
+| [1975-maximum-matrix-sum](https://github.com/nagarajp2004/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/nagarajp2004/leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/nagarajp2004/leetcode/tree/master/2585-delete-greatest-value-in-each-row) |
 ## Two Pointers
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/nagarajp2004/leetcode/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/nagarajp2004/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
+| [1975-maximum-matrix-sum](https://github.com/nagarajp2004/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2032-largest-odd-number-in-string](https://github.com/nagarajp2004/leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Sorting
 |  |
