@@ -221,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1370-count-number-of-nice-subarrays](https://github.com/nagarajp2004/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/nagarajp2004/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1441-build-an-array-with-stack-operations](https://github.com/nagarajp2004/leetcode/tree/master/1441-build-an-array-with-stack-operations) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nagarajp2004/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/nagarajp2004/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/nagarajp2004/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/nagarajp2004/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/nagarajp2004/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/nagarajp2004/leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [1441-build-an-array-with-stack-operations](https://github.com/nagarajp2004/leetcode/tree/master/1441-build-an-array-with-stack-operations) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/nagarajp2004/leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2227-sum-of-subarray-ranges](https://github.com/nagarajp2004/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/nagarajp2004/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -414,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0289-game-of-life](https://github.com/nagarajp2004/leetcode/tree/master/0289-game-of-life) |
 | [0495-teemo-attacking](https://github.com/nagarajp2004/leetcode/tree/master/0495-teemo-attacking) |
 | [0735-asteroid-collision](https://github.com/nagarajp2004/leetcode/tree/master/0735-asteroid-collision) |
+| [1441-build-an-array-with-stack-operations](https://github.com/nagarajp2004/leetcode/tree/master/1441-build-an-array-with-stack-operations) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/nagarajp2004/leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2058-concatenation-of-array](https://github.com/nagarajp2004/leetcode/tree/master/2058-concatenation-of-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/nagarajp2004/leetcode/tree/master/2585-delete-greatest-value-in-each-row) |
