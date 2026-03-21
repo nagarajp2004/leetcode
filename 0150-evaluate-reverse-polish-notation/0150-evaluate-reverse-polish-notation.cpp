@@ -1,48 +1,44 @@
 class Solution {
 public:
-      int oper(char x,int a,int b){
-        if(x=='/'){
-            return a/b;
-        }
-        else if(x=='*'){
-            return a*b;
-        }
-        else if(x=='+'){
-            return a+b;
-        }
-        else if(x=='-' ){
-            return a-b;
-        }else if(x=='^'){
-            return a^b;
-        }
+   int f(char op,int a,int b){
+    if(op=='+'){
+        return a+b;
+    }
+    else if(op =='-'){
+        return  a-b;
+    }else if(op =='*'){
+        return a*b;
+    }
+    return a/b;
+   }
 
-        return 0;
-      }
 
-    int evalRPN(vector<string>& tokens) {
-        stack<int>st;
-         int ans=0;
+    int evalRPN(vector<string>& tok) {
         
+        int n=tok.size();
 
-        for(auto i:tokens){
-int val=0;
-              if(i.size() > 1 || isdigit(i[0])){
-                st.push(stoi(i));
-              }else{
-                int a,b;
-                if(!st.empty())
-                { b=st.top();
-                st.pop();
-                }
+        stack<int>st;
+
+        for(int i=0;i<n;i++){
+            int a,b;
+            if(tok[i]=="+" || tok[i]=="-" || tok[i]=="*" || tok[i]=="/"){
                 if(!st.empty()){
-                 a=st.top();
-                st.pop();
+                  b=st.top();
+                  st.pop();
+                
+                } 
+
+                if(!st.empty()){
+                    a=st.top();
+                    st.pop();
                 }
-                val=oper(i[0],a,b);
-                st.push(val);
-              }   
-             
+                st.push(f(tok[i][0],a,b));
+
+            }else{
+            int x=stoi(tok[i]);
+            st.push(x);
         }
-        return st.top();
+        }
+     return st.top();
     }
 };
