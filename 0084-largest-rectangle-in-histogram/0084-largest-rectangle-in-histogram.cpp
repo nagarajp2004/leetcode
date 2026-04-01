@@ -1,45 +1,46 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& h) {
-           int n=h.size();
-        vector<int>nsr(n);
-        vector<int>psl(n);
-
+    int largestRectangleArea(vector<int>& hi) {
+        
         stack<int>st;
- 
     
-
+        int n=hi.size();
+        vector<int>lps(n,-1);
         for(int i=0;i<n;i++){
-            while(!st.empty() && h[st.top()]>h[i]){
-                  nsr[st.top()]=i;
-                  st.pop();
+
+            while(!st.empty() && hi[st.top()] >hi[i]){
+                st.pop();
+            }
+            if(st.empty()){
+                lps[i]=-1;
+            }else{
+                lps[i]=st.top();
             }
             st.push(i);
+
         }
+
 
         while(!st.empty()){
-            nsr[st.top()]=h.size();
             st.pop();
         }
 
-        for(int i=n-1;i>=0;i--)
-        {
-              while(!st.empty() && h[st.top()]>h[i]){
-                  psl[st.top()]=i;
-                  st.pop();
-            }
-            st.push(i);
-        }
-         while(!st.empty()){
-            psl[st.top()]=-1;
+      vector<int>rse(n,n);
+      for(int i=0;i<n;i++){
+   
+         while(!st.empty() && hi[st.top()] > hi[i]){
+            rse[st.top()]=i;
             st.pop();
-        }
-
-       int maxi=INT_MIN;
-       for(int i=0;i<n;i++){
-          maxi=max(maxi,(nsr[i]-psl[i]-1)*h[i]);
-       }
-       return maxi;
-        
+         }
+         st.push(i);
+      }
+      int maxi=-1;
+    
+     for(int i=0;i<n;i++){
+        lps[i]=(rse[i]-1-lps[i])*hi[i];
+        maxi=max(maxi,lps[i]);
+     }
+     return maxi;
+    
     }
 };
