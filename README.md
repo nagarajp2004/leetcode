@@ -367,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/nagarajp2004/leetcode/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/nagarajp2004/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0778-reorganize-string](https://github.com/nagarajp2004/leetcode/tree/master/0778-reorganize-string) |
+| [0796-rotate-string](https://github.com/nagarajp2004/leetcode/tree/master/0796-rotate-string) |
 | [0808-number-of-matching-subsequences](https://github.com/nagarajp2004/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0812-rotate-string](https://github.com/nagarajp2004/leetcode/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/nagarajp2004/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -960,6 +961,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/nagarajp2004/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/nagarajp2004/leetcode/tree/master/0459-repeated-substring-pattern) |
+| [0796-rotate-string](https://github.com/nagarajp2004/leetcode/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/nagarajp2004/leetcode/tree/master/0812-rotate-string) |
 ## Tree
 |  |
