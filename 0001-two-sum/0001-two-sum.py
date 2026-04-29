@@ -1,8 +1,13 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        n=len(nums)
-        for i in range(n):
-            secno=target-nums[i]
-            for j in range (i+1,n):
-                if secno==nums[j]:
-                    return i,j
+        mp = {}
+        
+        # store value -> index
+        for index, value in enumerate(nums):
+            mp[value] = index
+        
+        # check for complement
+        for ind, val in enumerate(nums):
+            complement = target - val
+            if complement in mp and mp[complement] != ind:
+                return [ind, mp[complement]]
