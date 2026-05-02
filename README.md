@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/nagarajp2004/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1651-shuffle-string](https://github.com/nagarajp2004/leetcode/tree/master/1651-shuffle-string) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/nagarajp2004/leetcode/tree/master/1700-number-of-students-unable-to-eat-lunch) |
+| [1732-find-the-highest-altitude](https://github.com/nagarajp2004/leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/nagarajp2004/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1923-sentence-similarity-iii](https://github.com/nagarajp2004/leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/nagarajp2004/leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -790,6 +791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/nagarajp2004/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/nagarajp2004/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nagarajp2004/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1732-find-the-highest-altitude](https://github.com/nagarajp2004/leetcode/tree/master/1732-find-the-highest-altitude) |
 | [2906-construct-product-matrix](https://github.com/nagarajp2004/leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/nagarajp2004/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
