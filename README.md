@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1635-number-of-good-pairs](https://github.com/nagarajp2004/leetcode/tree/master/1635-number-of-good-pairs) |
 | [1646-kth-missing-positive-number](https://github.com/nagarajp2004/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1651-shuffle-string](https://github.com/nagarajp2004/leetcode/tree/master/1651-shuffle-string) |
+| [1664-ways-to-make-a-fair-array](https://github.com/nagarajp2004/leetcode/tree/master/1664-ways-to-make-a-fair-array) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/nagarajp2004/leetcode/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1732-find-the-highest-altitude](https://github.com/nagarajp2004/leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/nagarajp2004/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -794,6 +795,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/nagarajp2004/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nagarajp2004/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1590-make-sum-divisible-by-p](https://github.com/nagarajp2004/leetcode/tree/master/1590-make-sum-divisible-by-p) |
+| [1664-ways-to-make-a-fair-array](https://github.com/nagarajp2004/leetcode/tree/master/1664-ways-to-make-a-fair-array) |
 | [1732-find-the-highest-altitude](https://github.com/nagarajp2004/leetcode/tree/master/1732-find-the-highest-altitude) |
 | [2906-construct-product-matrix](https://github.com/nagarajp2004/leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/nagarajp2004/leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
