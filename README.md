@@ -245,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2047-find-a-peak-element-ii](https://github.com/nagarajp2004/leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2058-concatenation-of-array](https://github.com/nagarajp2004/leetcode/tree/master/2058-concatenation-of-array) |
 | [2073-time-needed-to-buy-tickets](https://github.com/nagarajp2004/leetcode/tree/master/2073-time-needed-to-buy-tickets) |
+| [2126-destroying-asteroids](https://github.com/nagarajp2004/leetcode/tree/master/2126-destroying-asteroids) |
 | [2215-finding-3-digit-even-numbers](https://github.com/nagarajp2004/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2227-sum-of-subarray-ranges](https://github.com/nagarajp2004/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2308-divide-array-into-equal-pairs](https://github.com/nagarajp2004/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -471,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1975-maximum-matrix-sum](https://github.com/nagarajp2004/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2032-largest-odd-number-in-string](https://github.com/nagarajp2004/leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2126-destroying-asteroids](https://github.com/nagarajp2004/leetcode/tree/master/2126-destroying-asteroids) |
 ## Sorting
 |  |
 | ------- |
@@ -506,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/nagarajp2004/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/nagarajp2004/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1962-single-threaded-cpu](https://github.com/nagarajp2004/leetcode/tree/master/1962-single-threaded-cpu) |
+| [2126-destroying-asteroids](https://github.com/nagarajp2004/leetcode/tree/master/2126-destroying-asteroids) |
 | [2215-finding-3-digit-even-numbers](https://github.com/nagarajp2004/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/nagarajp2004/leetcode/tree/master/2585-delete-greatest-value-in-each-row) |
 | [3430-count-days-without-meetings](https://github.com/nagarajp2004/leetcode/tree/master/3430-count-days-without-meetings) |
