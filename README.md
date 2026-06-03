@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/nagarajp2004/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/nagarajp2004/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/nagarajp2004/leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1029-two-city-scheduling](https://github.com/nagarajp2004/leetcode/tree/master/1029-two-city-scheduling) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nagarajp2004/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/nagarajp2004/leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/nagarajp2004/leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -469,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/nagarajp2004/leetcode/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/nagarajp2004/leetcode/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/nagarajp2004/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1029-two-city-scheduling](https://github.com/nagarajp2004/leetcode/tree/master/1029-two-city-scheduling) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/nagarajp2004/leetcode/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1975-maximum-matrix-sum](https://github.com/nagarajp2004/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2032-largest-odd-number-in-string](https://github.com/nagarajp2004/leetcode/tree/master/2032-largest-odd-number-in-string) |
@@ -504,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/nagarajp2004/leetcode/tree/master/0876-hand-of-straights) |
 | [0948-sort-an-array](https://github.com/nagarajp2004/leetcode/tree/master/0948-sort-an-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/nagarajp2004/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1029-two-city-scheduling](https://github.com/nagarajp2004/leetcode/tree/master/1029-two-city-scheduling) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/nagarajp2004/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/nagarajp2004/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
