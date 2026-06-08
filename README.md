@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/nagarajp2004/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1127-last-stone-weight](https://github.com/nagarajp2004/leetcode/tree/master/1127-last-stone-weight) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
+| [1200-minimum-absolute-difference](https://github.com/nagarajp2004/leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1354-construct-target-array-with-multiple-sums](https://github.com/nagarajp2004/leetcode/tree/master/1354-construct-target-array-with-multiple-sums) |
 | [1370-count-number-of-nice-subarrays](https://github.com/nagarajp2004/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/nagarajp2004/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -508,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/nagarajp2004/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1029-two-city-scheduling](https://github.com/nagarajp2004/leetcode/tree/master/1029-two-city-scheduling) |
 | [1129-longest-string-chain](https://github.com/nagarajp2004/leetcode/tree/master/1129-longest-string-chain) |
+| [1200-minimum-absolute-difference](https://github.com/nagarajp2004/leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/nagarajp2004/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/nagarajp2004/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1962-single-threaded-cpu](https://github.com/nagarajp2004/leetcode/tree/master/1962-single-threaded-cpu) |
